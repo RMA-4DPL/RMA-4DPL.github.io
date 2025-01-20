@@ -4,21 +4,21 @@ type: people
 weight: 4
 ---
 
-The 3D Perception Lab is a transversal research unit rooted in the Department of Mathematics, including multiple members from other departments of the Belgian Royal Military Academy (RMA).
+The 4D Perception Lab is a transversal research unit rooted in the Department of Mathematics, including multiple members from other departments of the Belgian Royal Military Academy (RMA).
 
 
 
 {{< cards cols="3"  >}}
   {{< bigcard title="Rob Haelterman" 
       role="Military Professor" 
-      image="/people/rh.jpg" 
+      image="/images/people/rh.jpg" 
       linkRP="https://researchportal.rma.ac.be/en/persons/robby-haelterman"
       interests="Numerical Methods, Sensor Fusion, Hyperspectral Imaging"
       links="[Research Portal](https://researchportal.rma.ac.be/en/persons/robby-haelterman) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=OQJ8ctsAAAAJ) | [LinkedIn](https://be.linkedin.com/in/rob-haelterman-43a58b45)"  >}}
   {{< bigcard 
       title="Charles Hamesse" 
       role="Research Engineer / Project Manager"
-      image="/people/ch-cropped.jpg" 
+      image="/images/people/ch-cropped.jpg" 
       linkRP="https://researchportal.rma.ac.be/en/persons/charles-hamesse"
       interests="3D Perception, Sensor Fusion, SLAM"
       links="[Research Portal](https://researchportal.rma.ac.be/en/persons/charles-hamesse) | [Google Scholar](https://scholar.google.com/citations?user=19a7OPUAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/charleshamesse/)" 

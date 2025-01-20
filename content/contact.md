@@ -19,7 +19,7 @@ Please use the following links to contact us for general enquiries and collabora
 
 Official address: 
 
-- **3D Perception Lab**   \
+- **4D Perception Lab**   \
 Department of Mathematics  \
 Royal Military Academy (RMA)   
 30, Avenue de la Renaissance  

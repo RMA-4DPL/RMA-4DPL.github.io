@@ -30,11 +30,14 @@ menu:
     - name: People
       pageRef: /people
       weight: 4
+    - name: Expertise
+      pageRef: /expertise
+      weight: 5
     - name: Contact
       pageRef: /contact
-      weight: 5
-    - name: Search
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
 
