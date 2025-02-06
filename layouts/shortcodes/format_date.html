@@ -1,0 +1,8 @@
+{{- $date := .Get 0 -}}
+{{- $format := .Get 1 -}}
+{{- if not $format -}}
+    {{- $format = "January 2, 2006" -}}
+{{- end -}}
+
+{{- $parsedDate := time $date -}}
+{{- return ($parsedDate.Format $format) -}}

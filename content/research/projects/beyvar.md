@@ -3,68 +3,39 @@ title: Beyond Visual Augmented Reality
 linkTitle: BeyVAR
 type: docs
 prev: research/projects/
+project_image: "/images/beyvar-1.png"
+project_start: "November 1, 2023"
+project_end: "October 31, 2027 "
+keywords:
+- 3D Localization and Mapping
+- Infrared Imaging
+- Radio Frequency Signals
+- Threat Detection
 ---
 
-{{% details title="Funding information" %}}
+{{% details title="Overview" %}}
 
-- Source: Royal Higher Institute for Defence (RHID)
-- Project code: DAP22/01
-- Total cost: 599 k€
-- Start date: November 1st, 2023
-- End date: October 31st, 2027
+- Project code: {{% param "linkTitle" %}}
+- Start date: {{% param "project_start" %}}
+- End date: {{% param "project_end" %}}
+- Reference: DAP/22-01
+- Royal Military Academy Involvement: Director
+- Project Coordinator: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
+- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Co-promotor: [Mathias Becquaert](https://researchportal.rma.ac.be/en/persons/mathias-becquaert)
+- RMA Researchers: [Charles Hamesse (MWMW)](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Tiago Troccoli Cunha (CISS)](https://researchportal.rma.ac.be/nl/persons/tiago-troccoli-cunha)
+- Project Partners (RMA):[Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Partners: Royal Military Academy, [Signal and Image Centre (CISS)](https://www.sic.rma.ac.be/) and [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Funding: Defense Funded Research (DFR)
 
 {{% /details %}}
 
-**Keywords:** 3D localization and mapping, infrared imaging, radio frequency signals, threat detection, 
 
-## Context and motivation
-
-There is more than meets the eye. At least, without help. Perceiving beyond the visual spectrum can give soldiers the edge, in cases where items of interest are camouflaged or do not even exist in the visual spectrum such as the hot engine of a recently used car or the radio signals of a suspicious device. With the advent of Augmented Reality (AR) headsets and the ever-increasing rate of miniaturization of computers and sensors, new possibilities arise for the connected soldier. AR has come a long way since the premature attempt that was the Google Glass project. Nowadays the more sophisticated, powerful and user-friendly AR devices are used for a number of tasks in select industries, from increasing the efficiency of the assembly lines to making the inspection of construction sites more reliable. Miniaturization allows the plethora of smart IoT devices to cover more and more aspects of our life, from smart home appliances to large wireless mesh networks of intelligent security cameras. 
-
-The possibility to combine the latest innovations of both of these worlds creates a unique research opportunity for Belgian Defence: leveraging the new smart sensing capabilities with the most sophisticated AR hardware would effectively push the boundaries of human perception. 
+## Context
+The convergence of Augmented Reality (AR) headset technology and miniaturized computing/sensor systems presents novel opportunities for connected soldier applications.  Advances in AR technology, surpassing earlier iterations like Google Glass, have led to current implementations in various industrial sectors, enhancing efficiency in processes ranging from manufacturing to construction inspection. Integrating advanced sensing capabilities such as multi-spectral cameras and radio frequency detectors with state-of-the-art AR hardware constitutes a significant research area for the Belgian Defence, potentially extending the limits of human sensory perception in operational contexts.
 
 ## Objectives
-In this study, we propose to extend the operator’s vision in two ways: (thermal) infrared (IR), and radio frequency (RF):
-- Thermal or infrared (IR) vision has shown to be effectivein many critical (para-) military situations, for example when one needs to detect people in difficult visibility conditions (smoke, fire or camouflage) or carry out inspections of compounds, as the infrared signature of the environment might reveal essential information on the presence of people or substances
-- Radio frequency signals may reveal the presence of other types of potential threats such as remotely controlled bombs, network cameras or any wireless connected device. Detecting these invisible IR signatures and RF signals is important during tactical operations.
-
-![](/images/beyvar-1.png "Figure 1: Illustration of the proposed system")
-
-
 The goal of this study is to integrate a) the most recent compact infrared cameras with AR headsets for real-time, wearable and hands-free usage; b) a RF spectrum sensing device together with our AR system. Through the development of ad-hoc algorithms for sensor fusion, threat or anomaly detection and IR/RF signal visualization, we would effectively extend human vision to IR and RF.
 
-![](/images/beyvar-2.png "Figure 2: Illustration of the potential use cases")
-
-
-
-## Project team
-
-
-
-| Name | Institution | Role |
-|:--|:--|:--|
-| Rob HAELTERMAN | RMA, 3D Perception Lab & Hyper RU | Coordinator |
-| Mathias BECQUAERT | RMA, CISS | Coordinator |
-| Charles HAMESSE | RMA, 3D Perception Lab | Research Engineer |
-| Tiago TROCCOLI | RMA, CISS | Research Engineer |
-
-
-## Output
-
-### Publications 
-
-- **Depth-Visual-Inertial Mapping System for Robust Indoor 3D Reconstruction**<br />
-C Hamesse M Vlaminck, H Luong, R Haelterman<br />
-*IEEE Robotics and Automation Letters, 2024* 
-- **Fast and Cost-Effective Calibration of UWB Anchors Using a Portable LiDAR-Inertial SLAM System**<br />
-C Hamesse, R Vleugels, M Vlaminck, H Luong, R Haelterman<br />
-*IEEE Sensors, 2024* 
-- **Practical Deep Feature-Based Visual-Inertial Odometry**<br />
-C Hamesse M Vlaminck, H Luong, R Haelterman<br />
-*ICPRAM, 2024* 
-
-
-### Others
-
-- Bunker DVI Dataset
-- Deep Feature-Based VIO
+## Methodology
+For IR: Development of an automated multi-spectral calibration framework, development of multi-spectral SLAM system, development of onboard processing threat detection capabitilies. For RF: Development of an automated RF spectrum sensing with detection of arrival, development of a SLAM-based RF triangulation system, development of onboard processing threat detection capabilities. 

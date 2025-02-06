@@ -5,26 +5,37 @@ toc: false
 weight: 1
 ---
 
+
+<!-- 
+NEW FROM ROB:
+The 4D Perception Lab (4DPL) is a fusion of the previous 3D Perception Lab and the Hyperspectral Research Unit, where the “4D” refers to 3 spatial and 1 spectral dimension.
+The unit’s goal is to make sense of our surroundings through geometric (spatial) and chemical (spectral) measurements.
+The current main focus is on portable, passive systems that can be used on the modern battlefield, mainly centered around the detection of land and sea mines, UXO and IED.
+
+More generally, we aim to 
+- build digital twins of battlefield environments
+- study and implement spectroscopic, spatial and spatial-spectral target, anomaly, change and target detection algorithms (including ML-based algorithms). Targets can include explosive ordnance, biological warfare agents and chemical warfare agents.
+- analyze combustion processes
+- enhance data fusion between different types of electro-optical sensors
+ -->
+
+
 <p></p>
 
-The **4D Perception Lab** is a research unit within the [Royal Military Academy (RMA)](https://rma.ac.be/) of Belgium. With roots in the Department of Mathematics and a commitment to interdisciplinary research, our efforts are centered around two primary directions:
-- **Fundamental research in perception:** We develop novel signal processing, sensor fusion techniques and optimization techniques for 3D localization and mapping. 
-- **Perception for downstream applications:** Collaborating with other departments and research units, we deliver state-of-the-art 3D perception systems used as a component in other systems for applications such as mine detection, autonomous robot navigation, 3D reconstruction, augmented reality (AR) and virtual reality (VR). 
+The **4D Perception Lab** is a research unit within the [Royal Military Academy (RMA)](https://rma.ac.be/) of Belgium. It is a fusion of the previous 3D Perception Lab and the Hyperspectral Research Unit, where the “4D” refers to 3 spatial and 1 spectral dimension.
 
-In this website, we describe our [research projects](/research), list our [publications](/publications/articles) and open-source contributions ([software](/publications/code) and [datasets](/publications/datasets)), and present our [team](/people). 
+The unit’s goal is to make sense of our surroundings through geometric (spatial) and chemical (spectral) measurements.
+The current main focus is on **portable, passive systems that can be used on the modern battlefield**, mainly centered around the detection of land and sea mines, UXO and IED.
 
-Feel free to [contact us](/contact) for additional information, collaboration opportunities or any other query!
+Feel free to have a look at our current [research projects](/research) or [contact us](/contact) us for additional information.
 
 ## News
+- **14 Jan 2025 14h00-14h30:** A seminar by Dr. Skralan Hosteaux on ["Hyperspectral Imaging for Military and Security Applications: Combining Myriad Processing and Sensing Techniques"](https://webinars.rma.ac.be/home/hyperspectral-imaging-for-military-and-security-applications-combining-myriad-processing-and-sensing-techniques).
 - **18 Nov 2024:** Our article ["Depth-Visual-Inertial Mapping System for Robust Indoor 3D Reconstruction"](https://ieeexplore.ieee.org/document/10737432) has been published in the IEEE Robotics and Automation Letters! 
-- **15 Nov 2024:** The page dedicated to the [DEFRA-TaMaCare](/research/projects/tamacare/) project is now live. 
-- **13 Nov 2024:** Website online! Some sections are still under construction. Expect changes in the coming weeks.
 
 
 
 ## Partners
-
-
 
 
 {{< cards >}}

@@ -9,56 +9,94 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
 
 
 {{< cards cols="3"  >}}
-  {{< bigcard title="Rob Haelterman" 
-      role="Military Professor" 
-      image="/images/people/rh.jpg" 
-      linkRP="https://researchportal.rma.ac.be/en/persons/robby-haelterman"
+  {{< bigcard title="Prof. Rob Haelterman" 
+      role= "Head of Research Unit"
+      image="/images/people/rh-resized.jpg" 
       interests="Numerical Methods, Sensor Fusion, Hyperspectral Imaging"
-      links="[Research Portal](https://researchportal.rma.ac.be/en/persons/robby-haelterman) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=OQJ8ctsAAAAJ) | [LinkedIn](https://be.linkedin.com/in/rob-haelterman-43a58b45)"  >}}
+      research_portal="https://researchportal.rma.ac.be/en/persons/robby-haelterman"
+      scholar="https://scholar.google.com/citations?hl=en&user=OQJ8ctsAAAAJ"
+      linkedin="https://be.linkedin.com/in/rob-haelterman-43a58b45"
+      >}}
   {{< bigcard 
       title="Charles Hamesse" 
-      role="Research Engineer / Project Manager"
-      image="/images/people/ch-cropped.jpg" 
-      linkRP="https://researchportal.rma.ac.be/en/persons/charles-hamesse"
+      role="Research Engineer"
+      image="/images/people/ch-resized.jpg" 
       interests="3D Perception, Sensor Fusion, SLAM"
-      links="[Research Portal](https://researchportal.rma.ac.be/en/persons/charles-hamesse) | [Google Scholar](https://scholar.google.com/citations?user=19a7OPUAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/charleshamesse/)" 
+      research_portal="https://researchportal.rma.ac.be/en/persons/charles-hamesse"
+      scholar="https://scholar.google.com/citations?user=19a7OPUAAAAJ"
+      linkedin="https://www.linkedin.com/in/charleshamesse/"
       >}}
+
+{{< bigcard 
+      title="Dr. Hannes De Meulemeester" 
+      role="Research Engineer"
+      image="/images/people/hdm-resized.jpg"
+      interests=""
+      research_portal="https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester"
+      scholar="https://scholar.google.com/citations?user=hoTz9VsAAAAJ"
+      linkedin="https://www.linkedin.com/in/hannes-de-meulemeester/"
+      >}}
+{{< bigcard 
+      title="Dr. Skralan Hosteaux" 
+      role="Research Engineer"
+      image="/images/people/sh-resized.jpeg"
+      interests=""
+      research_portal="https://researchportal.rma.ac.be/en/persons/skralan-hosteaux"
+      scholar="https://scholar.google.com/citations?user=eWCBa1gAAAAJ"
+      linkedin="https://www.linkedin.com/in/skralan-hosteaux-b32422168"
+      >}}
+{{< bigcard 
+      title="Dr. Oscar Olarte" 
+      role="Research Engineer"
+      image="/images/people/oo-resized.jpg"
+      interests=""
+      research_portal="https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte"
+      scholar="https://scholar.google.be/citations?user=LI5Ol38AAAAJ"
+      linkedin="https://www.linkedin.com/in/oscar-olarte"
+      >}}
+
   {{< bigcard 
       title="Darius Couchard" 
       role="Research Engineer"
-      image="/images/people/dc.png"
+      image="/images/people/dc-resized.jpg"
       interests=""
-      links="[LinkedIn](https://www.linkedin.com/in/darcouchard)"    >}}
+      research_portal="https://researchportal.rma.ac.be/en/persons/darius-couchard"
+      scholar=""
+      linkedin="https://www.linkedin.com/in/darcouchard"
+      >}}
   {{< bigcard 
       title="Timothée Fréville" 
       role="Research Engineer" 
-      image="/images/people/tf.jpg"
-      linkRP="https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville"
-      links="[LinkedIn](https://www.linkedin.com/in/timothee-freville)" >}}
+      image="/images/people/tf-resized.jpg"
+      research_portal="https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville"
+      scholar="https://scholar.google.be/citations?user=jhL-WEwAAAAJ"
+      linkedin="https://www.linkedin.com/in/timothee-freville/"
+      >}}
   {{< bigcard 
       title="Mario Malizia" 
       role="Research Engineer"
-      linkRP="https://researchportal.rma.ac.be/en/persons/mario-malizia"
-      image="/images/people/mm.jpg"
-      links="[LinkedIn](https://www.linkedin.com/in/mario-malizia)"    >}}
+      image="/images/people/mm-resized.jpg"
+      research_portal="https://researchportal.rma.ac.be/en/persons/mario-malizia"
+      scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+      linkedin="https://www.linkedin.com/in/mario-malizia"
+      >}}
   {{< bigcard 
       title="Alessandra Miuccio" 
       role="Research Engineer" 
-      linkRP="https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
-      image="/images/people/am.jpg"
-      links="[LinkedIn](https://www.linkedin.com/in/alessandra-miuccio-159b74239/)" >}}
+      image="/images/people/am-resized.jpg"
+      research_portal="https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
+      scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+      linkedin="https://www.linkedin.com/in/alessandra-miuccio-159b74239/"
+      >}}
   {{< bigcard 
       title="Tiago Troccoli" 
       role="Research Engineer"
       linkRP="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
-      image="/images/people/tt.jpg"
-      links="[LinkedIn](https://www.linkedin.com/in/tiago-troccoli-702911152/)" >}}
-  {{< bigcard 
-      title="TBD" 
-      role="Research Engineer (GUIDED)"
-      linkRP=""
-      image="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
-      links="" >}}
+      image="/images/people/tt-resized.jpg"
+      research_portal="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
+      scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+      linkedin="https://www.linkedin.com/in/tiago-troccoli-702911152/"
+      >}}
 {{< /cards >}}
 
 

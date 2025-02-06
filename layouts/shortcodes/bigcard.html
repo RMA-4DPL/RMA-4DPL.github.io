@@ -1,13 +1,31 @@
+{{/*  ARGUMENTS  */}}
 {{- $title := .Get "title" -}}
 {{- $role := .Get "role" -}}
 {{- $image := .Get "image" -}}
-{{- $links := .Get "links" -}}
-{{- $linkRP := .Get "linkRP" -}}
 
-<a
-  class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-md hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"
-  href="{{ $linkRP }}"
->
+{{- if eq $image "" -}}
+    {{- $image = "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" -}}
+{{- end -}}
+
+{{- $research_portal := .Get "research_portal" -}}
+{{- $scholar := .Get "scholar" -}}
+{{- $linkedin := .Get "linkedin" -}}
+
+{{/*  ICONS  */}}
+{{ $linkedin_icon := dict "vendor" "fab" "name" "linkedin" "size" "2em"}}
+{{ $scholar_icon := dict "vendor" "fab" "name" "google-scholar"  "size" "2em"}}
+{{ $github_icon := dict "vendor" "fab" "name" "github"  "size" "2em"}}
+{{ $book_icon := dict "vendor" "solid" "name" "book-open"  "size" "2em"}}
+{{/*  IMAGE PROCESSING  */}}
+
+
+
+{{/*  CARD  */}}
+
+<div class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-md hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900">
+  
+
+<a href="{{ $research_portal }}">
   {{- with $image -}}
   <div class="img-people-container">
     <img
@@ -16,8 +34,11 @@
       decoding="async"
       src="{{ $image | safeURL }}"
       class="img-people"
-    /></div>
+    />
+  </div>
   {{- end -}}
+
+</a>
 
 
   {{- $padding := "hx-p-4" -}}
@@ -31,7 +52,23 @@
   </span>
   {{- with $role -}}
     <div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2">
-      {{- $role | markdownify -}}</div>
+      {{- $role | markdownify -}} </div>
   {{- end -}}
-    </a>
-{{- /* Strip trailing newline. */ -}}
+
+
+
+  <div class="hx-flex hx-gap-2 hx-px-4 hx-pb-4"> 
+    {{- with $scholar -}}
+      <a href="{{ . }}" class="hx-px-2">
+        {{ partial "icons/icon" $scholar_icon }}
+      </a>
+    {{- end -}}
+    {{- with $linkedin -}}
+      <a href="{{ . }}" class="hx-px-2">
+        {{ partial "icons/icon" $linkedin_icon }}
+      </a>
+    {{- end -}}  
+  </div>
+
+
+</div>

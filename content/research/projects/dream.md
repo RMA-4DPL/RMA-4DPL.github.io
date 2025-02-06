@@ -1,55 +1,40 @@
 ---
-title: DREAM
+title: Distributed Reconnaissance And Mapping system
+linkTitle: DREAM
 type: docs
 prev: research/projects/
+project_image: "/images/multi-agent-slam.png"
+project_start: "November 1, 2023"
+project_end: "December 31, 2027 "
+keywords:
+- 3D Localization and Mapping
+- Multi-Agent
+- Virtual Reality
 ---
 
+{{% details title="Overview" %}}
 
-{{% details title="Funding information" %}}
-
-- Source: Royal Higher Institute for Defence (RHID)
-- Project code: DAP22/05
-- Total cost:  0.8 M€
-- Start date: November 1st, 2023
-- End date: October 31st, 2027
+- Project code: {{% param "linkTitle" %}}
+- Start date: {{% param "project_start" %}}
+- End date: {{% param "project_end" %}}
+- Reference: DAP/22-05
+- Royal Military Academy Involvement: Director
+- Project Coordinator: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
+- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Co-promotor: [Emile Le Flécher](https://researchportal.rma.ac.be/fr/persons/emile-le-fl%C3%A9cher)
+- RMA Researchers: [Timothée Freville (MWMW)](https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville), [Alessandra Miuccio (MECA)](https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2)
+- Project Partners (RMA): [Robotics & Autonomous Systems (MECA)](https://mecatron.rma.ac.be/)
+- Project Partners: Royal Military Academy, [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics) and [Robotics & Autonomous Systems (MECA)](https://mecatron.rma.ac.be/)
+- Funding: Defense Funded Research (DFR)
 
 {{% /details %}}
 
-**Keywords:** 3D localization and mapping, multi-agent, virtual reality 
 
-## Context and motivation
-
+## Context
 Autonomous robots are being deployed in more and more complex environments (notably with the advent of legged robots). This study is aimed at improving the execution of reconnaissance and mapping operations with a proof-of-concept system consisting of multiple unmanned ground robots with robotic arms that allow basic manipulations in the environment and a VR command console.
 
+## Objectives
 The work consists in integrating the robot platforms, the robotic arms and VR technology in an ensemble system for shared situational awareness that is as accurate, efficient and user-friendly as possible.
 
-
-
-![](/images/dream.jpg "Figure 1: Illustration of the proposed system.")
-
-## Approach
-
-
-{{< callout type="info" >}}
-  This section is still in a very early stage of development. Expect missing and / or unverified information!
-{{< /callout >}}
-
-
-
-![](/images/multi-agent-slam.png "Figure 2: Multi-robot point cloud registration.")
-
-
-## Project team
-
-
-| Name | Institution | Role |
-|:--|:--|:--|
-| Charles HAMESSE | RMA, 3D Perception Lab | Coordinator |
-| Emile LE FLECHER | RMA, RAS Lab | Coordinator |
-| Timothée FREVILLE | RMA, RAS Lab | Research Engineer |
-| Alessandra MIUCCIO | RMA, RAS Lab | Research Engineer |
-
-
-
-
-## Output 
+## Methodology
+For SLAM: Development of single agent SLAM, development of a multi-agent SLAM baseline, development of advanced multi-agent SLAM systems. For arm manipulations: development of a simple manipulation pipeline, development of a fragile object handling pipeline (e.g. landmine). 

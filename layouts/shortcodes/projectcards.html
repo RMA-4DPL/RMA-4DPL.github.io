@@ -1,0 +1,21 @@
+{{/*  Go over all projects in 'section' e.g. research and make a card  */}}
+{{- $section := .Get "section" -}}
+
+
+{{- range where .Site.RegularPages "Section" "research" -}}
+
+  {{/*  {{.Parent}}  */}}
+    {{- partial "shortcodes/card.html" (dict
+    "link" .RelPermalink
+    "title" .Title
+    "subtitle" .Params.linkTitle
+    "image" .Params.project_image
+    "imageStyle" "height: 180px; object-fit: cover;"	
+    "method" "Resize"
+    "options" "600x q80 webp"
+    ) 
+  -}}
+
+  {{- end -}}
+
+

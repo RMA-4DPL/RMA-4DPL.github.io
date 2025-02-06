@@ -33,8 +33,12 @@
 
   <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-4 max-sm:hx-grid-cols-4 hx-gap-10 hx-w-full not-prose" style="--hextra-feature-grid-cols:4">
     <div class="hx-py-1">
-        <div class="hx-font-semibold">Royal Military Academy</div>
-        <div class="hx-mt-6 hx-text-s">30, Avenue de la Renaissance<br />Brussels 1000<br />Belgium</div>
+        <div class="hx-flex hx-gap-4">
+          <div>
+            <div class="hx-font-semibold">4D Perception Lab</div>
+            <div class="hx-mt-6 hx-text-s">Department of Mathematics<br /> Royal Military Academy (RMA) <br /> Avenue de la Renaissance 30<br />Brussels 1000<br />Belgium</div>
+          </div>
+        </div>
         {{- if (.Site.Params.footer.displayPoweredBy | default false) }}<div class="hx-font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{ end }}
         {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>{{ end }}
     </div>
@@ -46,6 +50,11 @@
    
    
     <div class="hx-py-1">
+      <div>
+        <a href="https://www.rma.ac.be" target="_blank" rel="noopener noreferrer">
+          <img src="/images/RMA-300x150.png" alt="RMA Logo" class="hx-w-auto hx-h-auto">
+        </a>
+      </div>
         <div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>
     </div>
    
