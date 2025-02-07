@@ -40,10 +40,6 @@ Feel free to have a look at our current [research projects](/research) or [conta
 
 {{< cards >}}
   {{< card 
-        link="https://researchportal.rma.ac.be/en/organisations/hyperspectral-unit" title="MWMW - Hyper RU"  subtitle="Royal Military Academy"
-        image="/images/logos/rma.jpg" 
-        imageStyle="height: 160px; object-fit: cover; background-color: white;padding: 10px;"  >}}
-  {{< card 
         link="https://mecatron.rma.ac.be" title="MECA - RAS Lab"  subtitle="Royal Military Academy"
         image="/images/logos/raslab.png" 
         style="background-color: white;"
