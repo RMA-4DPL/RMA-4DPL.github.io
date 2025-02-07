@@ -75,7 +75,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
   {{< bigcard 
       title="Mario Malizia" 
       role="Research Engineer"
-      image="/images/people/mm-resized.jpg"
+      image="/images/people/mm-resized.png"
       research_portal="https://researchportal.rma.ac.be/en/persons/mario-malizia"
       scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
       linkedin="https://www.linkedin.com/in/mario-malizia"
@@ -94,7 +94,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       linkRP="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
       image="/images/people/tt-resized.jpg"
       research_portal="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
-      scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+      scholar="https://scholar.google.com/citations?user=8FJGgsgAAAAJ"
       linkedin="https://www.linkedin.com/in/tiago-troccoli-702911152/"
       >}}
 {{< /cards >}}

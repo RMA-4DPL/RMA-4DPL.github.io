@@ -17,7 +17,7 @@ The 4D perception lab has an excellent track record of sharing it's expertise an
 
 <!-- ![alt text](/images/equipment/hyspex-mjolnir-s-620-hero.jpg) -->
 
-{{< cards cols="1"  >}}
+{{< cards cols="2"  >}}
 {{< equipment_card
       title="Hyspex Mjolnir S-620" 
       specs=`<ul>
