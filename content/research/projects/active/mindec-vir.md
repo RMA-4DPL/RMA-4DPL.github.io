@@ -5,7 +5,8 @@ type: docs
 prev: research/projects/
 project_image: "/images/landmine-stockimage.png"
 project_start: "October 1, 2025"
-project_end: "September 30, 2029 "
+project_end: "September 30, 2029"
+status: 'active'
 keywords:
 - Landmine
 - Spectroscopy
@@ -21,10 +22,11 @@ keywords:
 - Royal Military Academy Involvement: Director
 - Project Coordinator: [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
 - Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Bart Simoens](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
+- Project Co-promotor: [Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
 - RMA Researchers: TBD
 - Project Partners (RMA): [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
-- Project Partners: Royal Military Academy, [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics) and [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): N/A 
 - Funding: Defense Funded Research (DFR)
 
 {{% /details %}}

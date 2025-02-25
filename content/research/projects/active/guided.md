@@ -5,7 +5,8 @@ type: docs
 prev: research/projects/
 project_image: "/images/guided.png"
 project_start: "January 31, 2025"
-project_end: "January 31, 2028 "
+project_end: "January 31, 2028"
+status: 'active'
 keywords:
 - 3D Localization and Mapping
 - Virtual Reality
@@ -20,15 +21,13 @@ keywords:
 - End date: {{% param "project_end" %}}
 - Reference: DAP/23-08
 - Royal Military Academy Involvement: Director
-- Project Coordinator: [Ken Hasselman](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)
+- Project Coordinator: [Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)
 - Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
 - Project Co-promotor: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
 - RMA Researchers: Marnix Enting (MECA)
-- Project Partners (RMA):[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners: 
-    - Royal Military Academy, [Department of Mechanics (MECA)](https://mecatron.rma.ac.be/) and [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-    - [InterModalics](https://www.intermodalics.ai/)
-    - [Trace VZW](https://www.tracevzw.com/)
+- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): [InterModalics](https://www.intermodalics.ai/), [Trace VZW](https://www.tracevzw.com/)
 - Funding: Defense-Related Research Action (DEFRA)
 
 {{% /details %}}

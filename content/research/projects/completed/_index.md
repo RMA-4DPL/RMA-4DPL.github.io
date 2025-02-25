@@ -1,5 +1,5 @@
 ---
-title: Research projects
+title: Completed
 type: docs
 weight: 2
 prev: docs/first-page
@@ -8,14 +8,6 @@ sidebar:
   open: true
 ---
 
-## Active Projects
-{{< cards >}}
-
-{{< projectcards status="active" >}}
-
-{{< /cards >}}
-
-## Completed Projects
 {{< cards >}}
 
 {{< projectcards status="completed" >}}

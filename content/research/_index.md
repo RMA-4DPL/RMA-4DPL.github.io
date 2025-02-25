@@ -7,8 +7,18 @@ sidebar:
   open: true
 ---
 
+
+
+## Active Projects
 {{< cards >}}
 
-{{< projectcards section="active" >}}
+{{< projectcards status="active" >}}
+
+{{< /cards >}}
+
+## Completed Projects
+{{< cards >}}
+
+{{< projectcards status="completed" >}}
 
 {{< /cards >}}

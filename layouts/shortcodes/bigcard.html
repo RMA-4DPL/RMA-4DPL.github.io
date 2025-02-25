@@ -10,6 +10,7 @@
 {{- $research_portal := .Get "research_portal" -}}
 {{- $scholar := .Get "scholar" -}}
 {{- $linkedin := .Get "linkedin" -}}
+{{- $department := .Get "department" -}}
 
 {{/*  ICONS  */}}
 {{ $linkedin_icon := dict "vendor" "fab" "name" "linkedin" "size" "2em"}}
@@ -51,8 +52,12 @@
     {{- $title -}}
   </span>
   {{- with $role -}}
-    <div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2">
+    <div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mt-2">
       {{- $role | markdownify -}} </div>
+  {{- end -}}
+  {{- with $department -}}
+    <div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4">
+      {{- $department | markdownify -}} </div>
   {{- end -}}
 
 

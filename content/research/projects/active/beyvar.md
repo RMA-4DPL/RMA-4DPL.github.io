@@ -6,6 +6,7 @@ prev: research/projects/
 project_image: "/images/beyvar-1.png"
 project_start: "November 1, 2023"
 project_end: "October 31, 2027 "
+status: 'active'
 keywords:
 - 3D Localization and Mapping
 - Infrared Imaging
@@ -22,10 +23,11 @@ keywords:
 - Royal Military Academy Involvement: Director
 - Project Coordinator: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
 - Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Mathias Becquaert](https://researchportal.rma.ac.be/en/persons/mathias-becquaert)
-- RMA Researchers: [Charles Hamesse (MWMW)](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Tiago Troccoli Cunha (CISS)](https://researchportal.rma.ac.be/nl/persons/tiago-troccoli-cunha)
-- Project Partners (RMA):[Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners: Royal Military Academy, [Signal and Image Centre (CISS)](https://www.sic.rma.ac.be/) and [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Co-promotor: [Mathias Becquaert (CISS)](https://researchportal.rma.ac.be/en/persons/mathias-becquaert)
+- RMA Researchers: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Tiago Troccoli Cunha (CISS)](https://researchportal.rma.ac.be/nl/persons/tiago-troccoli-cunha)
+- Project Partners (RMA): [Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/communication-information-systems-and-sensors)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): N/A 
 - Funding: Defense Funded Research (DFR)
 
 {{% /details %}}

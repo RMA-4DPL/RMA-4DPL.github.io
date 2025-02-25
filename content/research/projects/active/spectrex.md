@@ -1,11 +1,12 @@
 ---
 title: Spectral Analysis and Detection of Explosives
-linkTitle: MinDec-VIR
+linkTitle: SpectrEx
 type: docs
 prev: research/projects/
 project_image: "/images/microscope-stockimage.png"
 project_start: "December 1, 2025"
-project_end: "November 30, 2029 "
+project_end: "November 30, 2029"
+status: 'active'
 keywords:
 - Landmine
 - Trace Explosives
@@ -19,12 +20,13 @@ keywords:
 - End date: {{% param "project_end" %}}
 - Reference: DAP/25-13 
 - Royal Military Academy Involvement: Director
-- Project Coordinator: [Bart Simoens](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
+- Project Coordinator: [Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
 - Coordinator Affiliation: [Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
 - Project Co-promotor: [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
 - RMA Researchers: [Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte)
 - Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners: Royal Military Academy, [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics) and [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
+- Project Partners (BE-DEF): N/A
+- Project Partners (Other): N/A
 - Funding: Defense Funded Research (DFR)
 
 {{% /details %}}

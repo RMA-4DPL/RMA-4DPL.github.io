@@ -6,6 +6,7 @@ prev: research/projects/
 project_image: "/images/Techbiot-final.pdf-Logo-1.png"
 project_start: "December 1, 2022"
 project_end: "November 30, 2025"
+status: 'active'
 keywords:
 - CBRN
 - Gas Chromatography
@@ -26,13 +27,14 @@ keywords:
 - End date: {{% param "project_end" %}}
 - Reference: 101103176
 - Royal Military Academy Involvement: Coordinator
-- Project Coordinator: [Leticia Fernandez Velasco](https://researchportal.rma.ac.be/en/persons/leticia-fernandez-velasco)
+- Project Coordinator: [Leticia Fernandez Velasco (CHCH)](https://researchportal.rma.ac.be/en/persons/leticia-fernandez-velasco)
 - Coordinator Affiliation: [Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
 - Project Co-promotor: [Skralan Hosteaux](https://researchportal.rma.ac.be/nl/persons/skralan-hosteaux)
-- RMA Researchers: [Oscar Olarte Rodriguez (MWMW)](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte),
-[Daris Couchard (MWMW)](https://researchportal.rma.ac.be/en/persons/darius-couchard)
-- Project Partners (RMA): Royal Military Academy, [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics) and [DLD Bio](https://researchportal.rma.ac.be/nl/organisations/dld-bio)
-- Project Partners: [Royal Military Academy](https://www.rma.ac.be/en), [Leibniz Universität Hannover](https://www.uni-hannover.de/), [T4I Engineering](https://www.t4ieng.com/), [The Centre for Research & Technology - Hellas](https://www.certh.gr/), [Tallinn University of Technology](https://taltech.ee/), [Bundesministerium der Verteidigung](https://www.bmvg.de/), [EXUS AI Labs](https://www.exus.ai/), [Interscience](https://inter.science/)
+- RMA Researchers: [Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte),
+[Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)
+- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics), [DLD Bio](https://researchportal.rma.ac.be/nl/organisations/dld-bio)
+- Project Partners (BE-DEF): N/A
+- Project Partners (Other): [Leibniz Universität Hannover](https://www.uni-hannover.de/), [T4I Engineering](https://www.t4ieng.com/), [The Centre for Research & Technology - Hellas](https://www.certh.gr/), [Tallinn University of Technology](https://taltech.ee/), [Bundesministerium der Verteidigung](https://www.bmvg.de/), [EXUS AI Labs](https://www.exus.ai/), [Interscience](https://inter.science/)
 - Funding: European Commission (EC), European Defense Fund (EDF)
 
 {{% /details %}}

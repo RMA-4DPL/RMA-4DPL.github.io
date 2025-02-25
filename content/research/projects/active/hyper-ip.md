@@ -5,7 +5,8 @@ type: docs
 prev: research/projects/
 project_image: "/images/hyperip-logo.webp"
 project_start: "Januari 27, 2025"
-project_end: "May 26, 2027 "
+project_end: "May 26, 2027"
+status: 'active'
 keywords:
 - Hyperspectral Imaging
 - Machine Learning
@@ -25,8 +26,8 @@ keywords:
 - Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman), [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
 - RMA Researchers: [Hannes De Meulemeester](https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester)
 - Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners: 
-    - [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): 
     - [FlySight](https://www.flysight.it/)
     - [National Institute of Optics of the National Research Council (CNR-INO)](https://www.ino.cnr.it/)
     - [Leonardo](https://www.leonardo.com/)

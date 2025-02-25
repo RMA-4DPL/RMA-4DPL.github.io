@@ -6,6 +6,7 @@ prev: research/projects/
 project_image: "/images/landmine-burried-stockimage.jpg" 
 project_start: "December 1, 2024"
 project_end: "Ongoing"
+status: 'active'
 keywords:
 - Landmine
 - Breaching
@@ -25,9 +26,8 @@ keywords:
 - Project Co-promotor: N/A
 - RMA Researchers: Pierre-Henri Koch, Andy Hanssens
 - Project Partners (RMA): N/A
-- Project Partners: 
-    - [Royal Military Academy](https://www.rma.ac.be)
-    - [DOVO/SEDEE](https://www.mil.be/nl/onze-missies/belgie-dovo/)
+- Project Partners (BE-DEF): [DOVO/SEDEE](https://www.mil.be/nl/onze-missies/belgie-dovo/) 
+- Project Partners (Other): N/A 
 - Funding: N/A
 
 {{% /details %}}

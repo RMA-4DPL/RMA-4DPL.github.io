@@ -7,10 +7,10 @@ weight: 5
 
 
 ## About
-The 4D perception lab has an excellent track record of sharing it's expertise and equipment with industry and organisations. We offer tailor-made rental and consultancy services to help you achieve your goals. For any additional information feel free to [contact us](/contact).
+The 4D perception lab has an excellent track record of sharing its expertise and equipment with industry and organisations. We offer tailor-made rental and consultancy services to help you achieve your goals. For any additional information feel free to [contact us](/contact).
 
 
-## Sensor Portfolio
+## Sensor Portfolio (Under Construction)
 
 
 ### Hyperspectral Sensors

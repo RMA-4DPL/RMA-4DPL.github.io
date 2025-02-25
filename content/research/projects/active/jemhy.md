@@ -5,7 +5,8 @@ type: docs
 prev: research/projects/
 project_image: "/images/belgian-f16.jpg"
 project_start: "July 1, 2023"
-project_end: "December 31, 2027 "
+project_end: "December 31, 2027"
+status: 'active'
 keywords:
 - Hyperspectral Imaging
 - Machine Learning
@@ -21,10 +22,11 @@ keywords:
 - Royal Military Academy Involvement: Director
 - Project Coordinator: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
 - Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Romuald Van Riet](https://researchportal.rma.ac.be/en/persons/romuald-van-riet)
-- RMA Researchers: [Skralan Hosteaux (MWMW)](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
+- Project Co-promotor: [Romuald Van Riet (CHCH)](https://researchportal.rma.ac.be/en/persons/romuald-van-riet)
+- RMA Researchers: [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
 - Project Partners (RMA): [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
-- Project Partners: Royal Military Academy, [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics) and [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): N/A 
 - Funding: Defense Funded Research (DFR)
 
 {{% /details %}}

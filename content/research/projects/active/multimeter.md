@@ -6,6 +6,7 @@ prev: research/projects/
 project_image: "/images/belgian-navy-explosion.jpg"
 project_start: "January 1, 2024"
 project_end: "March 31, 2028"
+status: 'active'
 keywords:
 - Unmanned
 - Maritime Mine Detection
@@ -18,17 +19,14 @@ keywords:
 - End date: {{% param "project_end" %}}
 - Reference: N/A
 - Royal Military Academy Involvement: Director
-- Project Coordinator: [Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber//)
+- Project Coordinator: [Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)
 - Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
 - Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-Emile Le Flécher + Alexander La Grappe
 - RMA Researchers: [Emile Le Flécher (MECA)](https://mecatron.rma.ac.be/index.php/people/emile-le-flecher/), [Alexander La Grappe (MECA)](https://mecatron.rma.ac.be/index.php/people/alexandre-la-grappe/)
-- Project Partners (RMA):[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)1
-- Project Partners: 
-    - Royal Military Academy, [Department of Mechanics (MECA)](https://mecatron.rma.ac.be/) and [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-    - [dotOcean](https://www.dotocean.eu/)
-    - [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Funding: MCMLab
+- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
+- Project Partners (Other): [dotOcean](https://www.dotocean.eu/) 
+- Funding: Mine Counter Measures (MCM) Lab
 
 {{% /details %}}
 

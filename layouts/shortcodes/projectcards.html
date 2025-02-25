@@ -1,10 +1,9 @@
-{{/*  Go over all projects in 'section' e.g. research and make a card  */}}
-{{- $section := .Get "section" -}}
+{{/*  Go over all projects with a specific status parameter and make a card  */}}
+{{- $status := .Get "status" -}}
 
 
-{{- range where .Site.RegularPages "Section" "research" -}}
+{{- range where .Site.RegularPages "Params.status" $status -}}
 
-  {{/*  {{.Parent}}  */}}
     {{- partial "shortcodes/card.html" (dict
     "link" .RelPermalink
     "title" .Title
@@ -16,6 +15,6 @@
     ) 
   -}}
 
-  {{- end -}}
+{{- end -}}
 
 
