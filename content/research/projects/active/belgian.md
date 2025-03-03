@@ -18,42 +18,6 @@ keywords:
 
 {{< projectheader >}}
 
-
-{{% details title="Partners" closed="false" %}}
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
-- Project Co-promotor: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
-- RMA Researchers: [Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): N/A 
-- Project Partners (Other): N/A 
-- Funding: Defense Funded Research (DFR)
-{{% /details %}}
-
-
-
-
-<!-- 
-{{% details title="Overview" closed="true" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: DAP/23-08
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
-- Project Co-promotor: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
-- RMA Researchers: [Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): N/A 
-- Project Partners (Other): N/A 
-- Funding: Defense Funded Research (DFR)
-
-{{% /details %}} -->
-
-
 ## Context
 The recent rise in the use of explosive ordnance (EO), such as improvised explosive devices (IEDs) and landmines in conflicts, has been a major cause of casualties among EU and NATO troops, accounting for about 50% of soldier deaths. The BELGIAN project aims to address this significant military challenge by developing unmanned ground vehicles with semi-autonomous capabilities for handling EOs. This technology seeks to enhance the safety of explosive ordnance disposal (EOD) operations by minimizing the direct exposure of human operators to these hazardous conditions.
 

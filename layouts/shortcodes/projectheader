@@ -4,26 +4,81 @@
 {{- $end_date := .Page.Params.project_end -}}
 {{- $reference := .Page.Params.project_reference -}}
 
-<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full not-prose"
-    style="--hextra-feature-grid-cols:2">
+<div class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group" open="true">
+    <summary class="hx-flex hx-items-center hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors  before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90"><strong class="hx-text-lg">Overview</strong>
+    </summary>
+<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
     <div class="hx-py-1">
-        <div class="hx-flex hx-gap-4">
-            <div>
-                <img src="{{ absURL $image }}" alt="Project Logo" class="hx-w-auto hx-h-auto">
+        <div class="hx-p-2 hx-overflow-hidden">
+            <div class="hx-text-left hx-pl-4">
+                <ul class="hx-list-disc hx-list-inside">
+                    <li><strong>Project Code:</strong> {{ $project_code }}</li>
+                    <li><strong>Start Date:</strong> {{ $start_date }}</li>
+                    <li><strong>End Date:</strong> {{ $end_date }}</li>
+                    <li><strong>Reference:</strong> {{ $reference }}</li>
+                    <li><strong>Funding:</strong>  Defense Funded Research (DFR)</li>
+                    <li><strong>Royal Military Academy Involvement:</strong> {{ "Director" | markdownify }}</li>
+                </ul>
             </div>
         </div>
     </div>
-
-    {{/*  <div class="hx-py-1"> </div>  */}}
-
-    <div class="hx-py-1">
+    <div class="hx-py-0 hx-my-0 hx-px-4">
         <div class="hx-flex hx-gap-4">
-            <ul>
-                <li>Project Code: {{ $project_code }}</li>
-                <li>Start Date: {{ $start_date }}</li>
-                <li>End Date: {{ $end_date }}</li>
-                <li>Reference: {{ $reference }}</li>
-            </ul>
+            <div>
+                <img src="{{ absURL $image }}" alt="Project Logo" class="hx-w-auto hx-h-auto hx-my-0 hx-py-0">
+            </div>
         </div>
     </div>
+</div>
+
+<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:1">
+    <div class="hx-py-1">
+         <details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group" open="true">
+    <summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
+    <strong>Team</strong>
+    </summary>
+        
+        <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
+    <div class="hx-py-1">
+
+        <strong class="hx-text-lg">Staff</strong>
+        </div>
+        <div class="hx-py-1">
+
+        <strong class="hx-text-lg">Partners</strong>
+        </div>
+        </div>
+
+  <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
+    <div class="hx-py-1">
+        <ul class="hx-px-4">
+
+                    <li><strong>Coordinator: </strong>{{ "[Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)" | markdownify }}</li>
+                    <li><strong>Coordinator Affiliation:</strong> {{ "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)" | markdownify }} </li>
+                    <li><strong>Project Co-promotor: </strong>
+                        {{ "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)" | markdownify }}</li>
+                    <li><strong>RMA Researchers
+                        {{ "[Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)" | markdownify }}</li>
+
+
+        </ul>
+        </div>
+
+    <div class="hx-py-1">
+
+          <ul class="hx-px-4">
+
+      <li><strong>Project Partners (RMA):</strong> {{ "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)" | markdownify }} </li>
+                    <li><strong>Project Partners (BE-DEF): </strong>  N/A </li>
+                    <li><strong>Project Partners (Other):</strong>  N/A </li>
+                    </ul>
+    </div>
+    </div>
+    </details>
+
+
+    </div>
+
+</div>
+
 </div>
