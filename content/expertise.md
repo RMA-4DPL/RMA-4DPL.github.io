@@ -13,9 +13,8 @@ The 4D perception lab has an excellent track record of sharing its expertise and
 ## Sensor Portfolio (Under Construction)
 
 
-### Hyperspectral Sensors
+<!-- ### Hyperspectral Sensors
 
-<!-- ![alt text](/images/equipment/hyspex-mjolnir-s-620-hero.jpg) -->
 
 {{< cards cols="2"  >}}
 {{< equipment_card
@@ -64,4 +63,4 @@ The 4D perception lab has an excellent track record of sharing its expertise and
  >}}
 
 {{< /cards >}}
-
+ -->

@@ -6,73 +6,80 @@
 
 {{- $footerWidth := "hx-max-w-screen-xl" -}}
 {{- with .Site.Params.footer.width -}}
-  {{ if eq . "wide" -}}
-    {{ $footerWidth = "hx-max-w-[90rem]" -}}
-  {{ else if eq . "full" -}}
-    {{ $footerWidth = "max-w-full" -}}
-  {{ end -}}
+{{ if eq . "wide" -}}
+{{ $footerWidth = "hx-max-w-[90rem]" -}}
+{{ else if eq . "full" -}}
+{{ $footerWidth = "max-w-full" -}}
+{{ end -}}
 {{- end -}}
 
 
-<footer class="hextra-footer hx-bg-gray-100 hx-pb-[env(safe-area-inset-bottom)] dark:hx-bg-neutral-900 print:hx-bg-transparent">
+<footer
+  class="hextra-footer hx-bg-gray-100 hx-pb-[env(safe-area-inset-bottom)] dark:hx-bg-neutral-900 print:hx-bg-transparent">
 
   {{- if $enableFooterSwitches -}}
-    <div class="hx-mx-auto hx-flex hx-gap-2 hx-py-2 hx-px-4 {{ $footerWidth }}">
-      {{- partial "language-switch.html" (dict "context" .) -}}
-      {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
-    </div>
-    {{- if or hugo.IsMultilingual $displayThemeToggle -}}
-      <hr class="dark:hx-border-neutral-800" />
-    {{- end -}}
+  <div class="hx-mx-auto hx-flex hx-gap-2 hx-py-2 hx-px-4 {{ $footerWidth }}">
+    {{- partial "language-switch.html" (dict "context" .) -}}
+    {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
+  </div>
+  {{- if or hugo.IsMultilingual $displayThemeToggle -}}
+  <hr class="dark:hx-border-neutral-800" />
+  {{- end -}}
   {{- end -}}
 
 
   <div
-    class="{{ $footerWidth }} hx-mx-auto hx-flex hx-justify-center hx-py-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-right),1.5rem)] hx-text-gray-600 dark:hx-text-gray-400 md:hx-justify-start"
-  >
+    class="{{ $footerWidth }} hx-mx-auto hx-flex hx-justify-center hx-py-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-right),1.5rem)] hx-text-gray-600 dark:hx-text-gray-400 md:hx-justify-start">
 
-  <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-4 max-sm:hx-grid-cols-4 hx-gap-10 hx-w-full not-prose" style="--hextra-feature-grid-cols:4">
-    <div class="hx-py-1">
+    <div
+      class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-4 max-sm:hx-grid-cols-4 hx-gap-10 hx-w-full not-prose"
+      style="--hextra-feature-grid-cols:4">
+      <div class="hx-py-1">
         <div class="hx-flex hx-gap-4">
           <div>
             <div class="hx-font-semibold">4D Perception Lab</div>
-            <div class="hx-mt-6 hx-text-s">Department of Mathematics<br /> Royal Military Academy (RMA) <br /> Avenue de la Renaissance 30<br />Brussels 1000<br />Belgium</div>
+            <div class="hx-mt-6 hx-text-s">Department of Mathematics<br /> Royal Military Academy (RMA) <br /> Avenue de
+              la Renaissance 30<br />Brussels 1000<br />Belgium</div>
           </div>
         </div>
-        {{- if (.Site.Params.footer.displayPoweredBy | default false) }}<div class="hx-font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{ end }}
-        {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>{{ end }}
-    </div>
-   
-    <div class="hx-py-1">
-    </div>
-    <div class="hx-py-1">
-    </div>
-   
-   
-    <div class="hx-py-1">
-      <div>
-        <a href="https://www.rma.ac.be" target="_blank" rel="noopener noreferrer">
-          <img src="/images/RMA-300x150.png" alt="RMA Logo" class="hx-w-auto hx-h-auto">
-        </a>
+        {{- if (.Site.Params.footer.displayPoweredBy | default false) }}<div class="hx-font-semibold">{{ template
+          "theme-credit" $poweredBy }}</div>{{ end }}
+        {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}
+        </div>{{ end }}
       </div>
-        <div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>
-    </div>
-   
-</div>
 
-  <div class="hx-flex hx-w-50% hx-flex-col hx-items-center sm:hx-items-start">
-      
-  </div>
+      <div class="hx-py-1">
+      </div>
+      <div class="hx-py-1">
+      </div>
+
+
+      <div class="hx-py-1">
+        <div>
+          <a href="https://www.rma.ac.be" target="_blank" rel="noopener noreferrer">
+            <img src="/images/RMA-300x150.png" alt="RMA Logo" class="hx-w-auto hx-h-auto">
+          </a>
+        </div>
+        <div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>
+      </div>
+
+    </div>
+
+    <div class="hx-flex hx-w-50% hx-flex-col hx-items-center sm:hx-items-start">
+
+    </div>
   </div>
 </footer>
 
 {{- define "theme-credit" -}}
-  <a class="hx-flex hx-text-sm hx-items-center hx-gap-1 hx-text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
-    <span>
-      {{- . | markdownify -}}
-      {{- if strings.Contains . "Hextra" -}}
-        {{- partial "utils/icon.html" (dict "name" "hextra" "attributes" `height=1em class="hx-inline-block ltr:hx-ml-1 rtl:hx-mr-1 hx-align-[-2.5px]"`) -}}
-      {{- end -}}
-    </span>
-  </a>
+<a class="hx-flex hx-text-sm hx-items-center hx-gap-1 hx-text-current" target="_blank" rel="noopener noreferrer"
+  title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
+  <span>
+    {{- . | markdownify -}}
+    {{- if strings.Contains . "Hextra" -}}
+    {{- partial "utils/icon.html" (dict "name" "hextra" "attributes" `height=1em class="hx-inline-block ltr:hx-ml-1
+    rtl:hx-mr-1 hx-align-[-2.5px]"`) -}}
+    {{- end -}}
+  </span>
+</a>
 {{- end -}}

@@ -3,17 +3,39 @@ title: Mobile manipulation for demining, EOD & IED operations
 linkTitle: BELGIAN
 type: docs
 prev: research/projects/
-project_image: "/images/husky-platform.png"
-project_start: "January 1, 2024"
-project_end: "December 31, 2027 "
-status: 'active'
+project_image: /images/husky-platform.png
+project_start: January 1, 2024
+project_end: December 31, 2027
+project_reference: DAP/23-08
+status: active
 keywords:
 - Sensor Fusion
 - 3D reconstruction
 - Robotic Control
 ---
 
-{{% details title="Overview" %}}
+
+
+{{< projectheader >}}
+
+
+{{% details title="Partners" closed="false" %}}
+- Royal Military Academy Involvement: Director
+- Project Coordinator: [Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)
+- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
+- Project Co-promotor: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
+- RMA Researchers: [Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)
+- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
+- Project Partners (BE-DEF): N/A 
+- Project Partners (Other): N/A 
+- Funding: Defense Funded Research (DFR)
+{{% /details %}}
+
+
+
+
+<!-- 
+{{% details title="Overview" closed="true" %}}
 
 - Project code: {{% param "linkTitle" %}}
 - Start date: {{% param "project_start" %}}
@@ -29,7 +51,7 @@ keywords:
 - Project Partners (Other): N/A 
 - Funding: Defense Funded Research (DFR)
 
-{{% /details %}}
+{{% /details %}} -->
 
 
 ## Context

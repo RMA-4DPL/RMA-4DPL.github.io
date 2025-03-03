@@ -1,0 +1,29 @@
+{{- $image := .Page.Params.project_image -}}
+{{- $project_code := .Page.Params.linktitle -}}
+{{- $start_date := .Page.Params.project_start -}}
+{{- $end_date := .Page.Params.project_end -}}
+{{- $reference := .Page.Params.project_reference -}}
+
+<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full not-prose"
+    style="--hextra-feature-grid-cols:2">
+    <div class="hx-py-1">
+        <div class="hx-flex hx-gap-4">
+            <div>
+                <img src="{{ absURL $image }}" alt="Project Logo" class="hx-w-auto hx-h-auto">
+            </div>
+        </div>
+    </div>
+
+    {{/*  <div class="hx-py-1"> </div>  */}}
+
+    <div class="hx-py-1">
+        <div class="hx-flex hx-gap-4">
+            <ul>
+                <li>Project Code: {{ $project_code }}</li>
+                <li>Start Date: {{ $start_date }}</li>
+                <li>End Date: {{ $end_date }}</li>
+                <li>Reference: {{ $reference }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
