@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/multi-agent-slam.png"
 project_start: "November 1, 2023"
 project_end: "December 31, 2027"
-status: 'active'
+project_status: 'active'
 keywords:
 - 3D Localization and Mapping
 - Multi-Agent

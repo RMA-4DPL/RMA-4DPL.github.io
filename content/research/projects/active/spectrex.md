@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/microscope-stockimage.png"
 project_start: "December 1, 2025"
 project_end: "November 30, 2029"
-status: 'active'
+project_status: 'active'
 keywords:
 - Landmine
 - Trace Explosives

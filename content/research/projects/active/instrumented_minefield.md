@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/landmine-burried-stockimage.jpg" 
 project_start: "December 1, 2024"
 project_end: "Ongoing"
-status: 'active'
+project_status: 'active'
 keywords:
 - Landmine
 - Breaching

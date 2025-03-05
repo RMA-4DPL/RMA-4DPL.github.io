@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/belgian-f16.jpg"
 project_start: "July 1, 2023"
 project_end: "December 31, 2027"
-status: 'active'
+project_status: 'active'
 keywords:
 - Hyperspectral Imaging
 - Machine Learning

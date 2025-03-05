@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/tamacare-illustration.png"
 project_start: "January 1, 2025"
 project_end: "December 31, 2027"
-status: 'active'
+project_status: 'active'
 keywords:
 - 3D Mapping
 - Infrared Imaging

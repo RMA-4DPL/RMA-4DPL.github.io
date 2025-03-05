@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/guided.png"
 project_start: "January 31, 2025"
 project_end: "January 31, 2028"
-status: 'active'
+project_status: 'active'
 keywords:
 - 3D Localization and Mapping
 - Virtual Reality

@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/MarSur-RHIB.jpg"
 project_start: "2019"
 project_end: "2023"
-status: 'completed'
+project_status: 'completed'
 keywords:
 
 ---

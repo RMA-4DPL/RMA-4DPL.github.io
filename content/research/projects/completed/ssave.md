@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/SSAVE-logo.png"
 project_start: "2019"
 project_end: "2021"
-status: 'completed'
+project_status: 'completed'
 keywords:
 
 ---

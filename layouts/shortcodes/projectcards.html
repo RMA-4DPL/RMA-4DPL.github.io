@@ -2,7 +2,7 @@
 {{- $status := .Get "status" -}}
 
 
-{{- range where .Site.RegularPages "Params.status" $status -}}
+{{- range where .Site.RegularPages "Params.project_status" $status -}}
 
     {{- partial "shortcodes/card.html" (dict
     "link" .RelPermalink

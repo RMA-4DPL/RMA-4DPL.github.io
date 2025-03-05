@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/belgian-navy-explosion.jpg"
 project_start: "January 1, 2024"
 project_end: "March 31, 2028"
-status: 'active'
+project_status: 'active'
 keywords:
 - Unmanned
 - Maritime Mine Detection

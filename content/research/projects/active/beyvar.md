@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/beyvar-1.png"
 project_start: "November 1, 2023"
 project_end: "October 31, 2027 "
-status: 'active'
+project_status: 'active'
 keywords:
 - 3D Localization and Mapping
 - Infrared Imaging

@@ -3,82 +3,98 @@
 {{- $start_date := .Page.Params.project_start -}}
 {{- $end_date := .Page.Params.project_end -}}
 {{- $reference := .Page.Params.project_reference -}}
+{{- $project_funding := .Page.Params.project_funding -}}
+{{- $project_coordinator := .Page.Params.project_coordinator -}}
+{{- $project_coordinator_affiliation := .Page.Params.project_coordinator_affiliation -}}
+{{- $project_rma_involvement := .Page.Params.project_rma_involvement -}}
+{{- $project_copromotor := .Page.Params.project_copromotor -}}
+{{- $project_rma_researchers := .Page.Params.project_rma_researchers -}}
+{{- $project_partners_rma := .Page.Params.project_partners_rma -}}
+{{- $project_partners_BE_DEF := .Page.Params.project_partners_BE_DEF -}}
+{{- $project_partners_other := .Page.Params.project_partners_other -}}
 
-<div class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group" open="true">
-    <summary class="hx-flex hx-items-center hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors  before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90"><strong class="hx-text-lg">Overview</strong>
-    </summary>
-<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
-    <div class="hx-py-1">
-        <div class="hx-p-2 hx-overflow-hidden">
-            <div class="hx-text-left hx-pl-4">
-                <ul class="hx-list-disc hx-list-inside">
-                    <li><strong>Project Code:</strong> {{ $project_code }}</li>
-                    <li><strong>Start Date:</strong> {{ $start_date }}</li>
-                    <li><strong>End Date:</strong> {{ $end_date }}</li>
-                    <li><strong>Reference:</strong> {{ $reference }}</li>
-                    <li><strong>Funding:</strong>  Defense Funded Research (DFR)</li>
-                    <li><strong>Royal Military Academy Involvement:</strong> {{ "Director" | markdownify }}</li>
-                </ul>
-            </div>
-        </div>
+<div class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group">
+    <div
+        class="hx-flex hx-items-center hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors  before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
+        <strong class="hx-text-xl">Overview</strong>
     </div>
-    <div class="hx-py-0 hx-my-0 hx-px-4">
-        <div class="hx-flex hx-gap-4">
-            <div>
-                <img src="{{ absURL $image }}" alt="Project Logo" class="hx-w-auto hx-h-auto hx-my-0 hx-py-0">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:1">
-    <div class="hx-py-1">
-         <details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group" open="true">
-    <summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
-    <strong>Team</strong>
-    </summary>
-        
-        <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
-    <div class="hx-py-1">
-
-        <strong class="hx-text-lg">Staff</strong>
-        </div>
+    <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full"
+        style="--hextra-feature-grid-cols:2">
         <div class="hx-py-1">
-
-        <strong class="hx-text-lg">Partners</strong>
-        </div>
-        </div>
-
-  <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full" style="--hextra-feature-grid-cols:2">
-    <div class="hx-py-1">
-        <ul class="hx-px-4">
-
-                    <li><strong>Coordinator: </strong>{{ "[Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)" | markdownify }}</li>
-                    <li><strong>Coordinator Affiliation:</strong> {{ "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)" | markdownify }} </li>
-                    <li><strong>Project Co-promotor: </strong>
-                        {{ "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)" | markdownify }}</li>
-                    <li><strong>RMA Researchers
-                        {{ "[Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)" | markdownify }}</li>
-
-
-        </ul>
-        </div>
-
-    <div class="hx-py-1">
-
-          <ul class="hx-px-4">
-
-      <li><strong>Project Partners (RMA):</strong> {{ "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)" | markdownify }} </li>
-                    <li><strong>Project Partners (BE-DEF): </strong>  N/A </li>
-                    <li><strong>Project Partners (Other):</strong>  N/A </li>
+            <div class="hx-p-2 hx-overflow-hidden">
+                <div class="hx-text-left hx-pl-4">
+                    <ul class="hx-list-disc hx-list-inside">
+                        <li><strong>Project Code:</strong> {{ $project_code | markdownify }}</li>
+                        <li><strong>Start Date:</strong> {{ $start_date | markdownify }}</li>
+                        <li><strong>End Date:</strong> {{ $end_date | markdownify }}</li>
+                        <li><strong>Reference:</strong> {{ $reference | markdownify }}</li>
+                        <li><strong>Funding:</strong> {{ $project_funding | markdownify }} </li>
+                        <li><strong>Royal Military Academy Involvement:</strong> {{ $project_rma_involvement | markdownify }}</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hx-px-6">
+            <div class="hx-flex hx-px-6">
+                <div>
+                    <img src="{{ absURL $image }}" alt="Project Logo" loading="lazy" decoding="async" class="hx-w-auto hx-h-auto">
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    </details>
+
+    <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full"
+        style="--hextra-feature-grid-cols:1">
+        <div class="hx-py-1">
+            <details
+                class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-group"
+                open="true">
+                <summary
+                    class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
+                    <strong class="hx-text-lg">Team</strong>
+                </summary>
+                <div class="hx-overflow-hidden">
+
+                    <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full"
+                        style="--hextra-feature-grid-cols:2">
+                        <div class="hx-py-1 hx-p-4">
+
+                            <strong class="hx-text-lg">Staff</strong>
+                        </div>
+                        <div class="hx-py-1 hx-p-4">
+
+                            <strong class="hx-text-lg">Partners</strong>
+                        </div>
+                    </div>
+
+                    <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full"
+                        style="--hextra-feature-grid-cols:2">
+                        <div class="hx-py-1 hx-p-4">
+                            <ul class="hx-px-4">
+
+                                <li><strong>Coordinator: </strong> {{ $project_coordinator | markdownify }}</li>
+                                <li><strong>Coordinator Affiliation:</strong> {{ $project_coordinator_affiliation | markdownify }} </li>
+                                <li><strong>Project Co-promotor: </strong> {{ $project_copromotor | markdownify }}</li>
+                                <li><strong>RMA Researchers: </strong> {{ $project_rma_researchers | markdownify }}</li>
+                            </ul>
+                        </div>
+
+                        <div class="hx-py-1">
+                            <ul class="hx-px-4">
+
+                                <li><strong>Project Partners (RMA):</strong> {{ $project_partners_rma | markdownify }} </li>
+                                <li><strong>Project Partners (BE-DEF): </strong> {{ $project_partners_BE_DEF | markdownify }} </li>
+                                <li><strong>Project Partners (Other):</strong> {{ $project_partners_other | markdownify }}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
 
 
-    </div>
+        </div>
 
-</div>
+    </div>
 
 </div>

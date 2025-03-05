@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/hyperip-logo.webp"
 project_start: "Januari 27, 2025"
 project_end: "May 26, 2027"
-status: 'active'
+project_status: 'active'
 keywords:
 - Hyperspectral Imaging
 - Machine Learning

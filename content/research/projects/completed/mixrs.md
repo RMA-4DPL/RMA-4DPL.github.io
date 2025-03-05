@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/mixrs-rigs.jpg"
 project_start: "January 1, 2019"
 project_end: "October 31, 2023"
-status: 'completed'
+project_status: 'completed'
 keywords:
 - Virtual Reality
 - Augmented Reality

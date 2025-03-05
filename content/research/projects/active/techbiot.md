@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/Techbiot-final.pdf-Logo-1.png"
 project_start: "December 1, 2022"
 project_end: "November 30, 2025"
-status: 'active'
+project_status: 'active'
 keywords:
 - CBRN
 - Gas Chromatography

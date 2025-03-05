@@ -6,8 +6,17 @@ prev: research/projects/
 project_image: /images/husky-platform.png
 project_start: January 1, 2024
 project_end: December 31, 2027
+project_status: active
 project_reference: DAP/23-08
-status: active
+project_funding: Defense Funded Research (DFR)
+project_rma_involvement: Director
+project_coordinator: "[Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)"
+project_copromotor: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
+project_rma_researchers: "[Mario Malizia (MECA)](https://researchportal.rma.ac.be/en/persons/mario-malizia)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: N/A
+project_partners_other: N/A
 keywords:
 - Sensor Fusion
 - 3D reconstruction

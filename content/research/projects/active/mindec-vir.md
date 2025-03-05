@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/landmine-stockimage.png"
 project_start: "October 1, 2025"
 project_end: "September 30, 2029"
-status: 'active'
+project_status: 'active'
 keywords:
 - Landmine
 - Spectroscopy

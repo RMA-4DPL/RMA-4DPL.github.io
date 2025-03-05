@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/dmines-drone.jpeg"
 project_start: "September 1, 2023"
 project_end: "November 30, 2024"
-status: 'completed'
+project_status: 'completed'
 keywords:
 - Sea Mines
 ---
