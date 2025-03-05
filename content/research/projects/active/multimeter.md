@@ -7,28 +7,22 @@ project_image: "/images/belgian-navy-explosion.jpg"
 project_start: "January 1, 2024"
 project_end: "March 31, 2028"
 project_status: 'active'
+project_reference: N/A
+project_funding: Mine Counter Measures (MCM) Lab
+project_rma_involvement: Director
+project_coordinator: "[Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)"
+project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_rma_researchers: "[Emile Le Flécher (MECA)](https://mecatron.rma.ac.be/index.php/people/emile-le-flecher/), [Alexander La Grappe (MECA)](https://mecatron.rma.ac.be/index.php/people/alexandre-la-grappe/)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
+project_partners_other: "[dotOcean](https://www.dotocean.eu/) "
 keywords:
 - Unmanned
 - Maritime Mine Detection
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
-- Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- RMA Researchers: [Emile Le Flécher (MECA)](https://mecatron.rma.ac.be/index.php/people/emile-le-flecher/), [Alexander La Grappe (MECA)](https://mecatron.rma.ac.be/index.php/people/alexandre-la-grappe/)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Project Partners (Other): [dotOcean](https://www.dotocean.eu/) 
-- Funding: Mine Counter Measures (MCM) Lab
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

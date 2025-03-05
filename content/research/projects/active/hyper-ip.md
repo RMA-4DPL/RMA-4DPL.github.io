@@ -7,6 +7,17 @@ project_image: "/images/hyperip-logo.webp"
 project_start: "Januari 27, 2025"
 project_end: "May 26, 2027"
 project_status: 'active'
+project_reference: N/A
+project_funding: European Defence Agency (EDA)
+project_rma_involvement: Partner
+project_coordinator: Andrea Massini
+project_coordinator_affiliation: "[FlySight](https://www.flysight.it/)"
+project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman), [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)"
+project_rma_researchers: "[Hannes De Meulemeester](https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: N/A 
+project_partners_other: "[FlySight](https://www.flysight.it/), [National Institute of Optics of the National Research Council (CNR-INO)](https://www.ino.cnr.it/), [Leonardo](https://www.leonardo.com/)
+, [Norsk Elektro Optikk (NEO)](https://www.neo.no/), [Imec](https://www.imec.be/)"
 keywords:
 - Hyperspectral Imaging
 - Machine Learning
@@ -14,28 +25,8 @@ keywords:
 - SWaP-C
 ---
 
-{{% details title="Overview" %}}
+{{< projectheader >}}
 
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Partner
-- Project Coordinator: Andrea Massini
-- Coordinator Affiliation: [FlySight](https://www.flysight.it/)
-- Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman), [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
-- RMA Researchers: [Hannes De Meulemeester](https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): N/A 
-- Project Partners (Other): 
-    - [FlySight](https://www.flysight.it/)
-    - [National Institute of Optics of the National Research Council (CNR-INO)](https://www.ino.cnr.it/)
-    - [Leonardo](https://www.leonardo.com/)
-    - [Norsk Elektro Optikk (NEO)](https://www.neo.no/)
-    - [Imec](https://www.imec.be/)
-- Funding: European Defence Agency (EDA)
-
-{{% /details %}}
 
 ## Context
 The project aims to overcome some of the current technological gaps of the hyperspectral technologies in

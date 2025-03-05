@@ -7,29 +7,23 @@ project_image: "/images/mixrs-rigs.jpg"
 project_start: "January 1, 2019"
 project_end: "October 31, 2023"
 project_status: 'completed'
+project_reference: DAP18/04
+project_funding: "[Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)"
+project_rma_involvement: Director
+project_coordinator: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_copromotor: "[Geert De Cubber (MECA)](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)"
+project_rma_researchers: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Timothée Freville](https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville)"
+project_partners_rma: "[Robotics & Autonomous Systems (MECA)](https://mecatron.rma.ac.be/)"
+project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
+project_partners_other: N/A
 keywords:
 - Virtual Reality
 - Augmented Reality
 - 3D Perception
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: DAP18/04
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Geert De Cubber (MECA)](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)
-- RMA Researchers: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Timothée Freville](https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville)
-- Project Partners (RMA): [Robotics & Autonomous Systems (MECA)](https://mecatron.rma.ac.be/)
-- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Project Partners (Other): N/A
-- Funding: [Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

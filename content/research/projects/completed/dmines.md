@@ -7,27 +7,21 @@ project_image: "/images/dmines-drone.jpeg"
 project_start: "September 1, 2023"
 project_end: "November 30, 2024"
 project_status: 'completed'
+project_reference: N/A
+project_funding: Mine Counter Measures (MCM) Lab
+project_rma_involvement: Director
+project_coordinator: "[Olga Lopera (CISS)](https://researchportal.rma.ac.be/en/persons/olga-lopera-tellez)"
+project_coordinator_affiliation: "[Royal Military Academy, Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/communication-information-systems-and-sensors)"
+project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_rma_researchers: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Pierre-Edouard Ouendo](https://researchportal.rma.ac.be/en/persons/pierre-edouard-ouendo)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
+project_partners_other: N/A
 keywords:
 - Sea Mines
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Olga Lopera (CISS)](https://researchportal.rma.ac.be/en/persons/olga-lopera-tellez)
-- Coordinator Affiliation: [Royal Military Academy, Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/communication-information-systems-and-sensors)
-- Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- RMA Researchers: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse), [Pierre-Edouard Ouendo](https://researchportal.rma.ac.be/en/persons/)pierre-edouard-ouendo
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Project Partners (Other): N/A
-- Funding: Mine Counter Measures (MCM) Lab
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

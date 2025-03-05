@@ -7,6 +7,16 @@ project_image: "/images/landmine-burried-stockimage.jpg"
 project_start: "December 1, 2024"
 project_end: "Ongoing"
 project_status: 'active'
+project_reference: N/A
+project_funding: N/A
+project_rma_involvement: Director
+project_coordinator: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_copromotor: N/A
+project_rma_researchers: Pierre-Henri Koch, Andy Hanssens
+project_partners_rma: N/A
+project_partners_BE_DEF: "[DOVO/SEDEE](https://www.mil.be/nl/onze-missies/belgie-dovo/) "
+project_partners_other: N/A
 keywords:
 - Landmine
 - Breaching
@@ -14,23 +24,7 @@ keywords:
 - Hyperspectral
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: N/A
-- RMA Researchers: Pierre-Henri Koch, Andy Hanssens
-- Project Partners (RMA): N/A
-- Project Partners (BE-DEF): [DOVO/SEDEE](https://www.mil.be/nl/onze-missies/belgie-dovo/) 
-- Project Partners (Other): N/A 
-- Funding: N/A
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

@@ -7,29 +7,23 @@ project_image: "/images/landmine-stockimage.png"
 project_start: "October 1, 2025"
 project_end: "September 30, 2029"
 project_status: 'active'
+project_reference: DAP/25-07
+project_funding: Defense Funded Research (DFR)
+project_rma_involvement: Director
+project_coordinator: "[Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_copromotor: "[Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)"
+project_rma_researchers: TBD
+project_partners_rma: "[Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)"
+project_partners_BE_DEF: N/A 
+project_partners_other: N/A 
 keywords:
 - Landmine
 - Spectroscopy
 - Infrared
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: DAP/25-07
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
-- RMA Researchers: TBD
-- Project Partners (RMA): [Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
-- Project Partners (BE-DEF): N/A 
-- Project Partners (Other): N/A 
-- Funding: Defense Funded Research (DFR)
-
-{{% /details %}}
+{{< projectheader >}}
 
 ## Context
 Recent events in Ukraine have shown that the humble landmine still represents a formidable obstacle to maneuver warfare. Even after a conflict ends, these indiscriminate weapons continue to do harm to the civilian population. Different techniques to detect landmines exist, but few are passive, stand-off, automated and/or efficient. At the request of BE-DEF (BAS-Transfo-MILENG) we propose a study where we will analyze which parts of the visible and infrared (VIR) spectrum are best suited to detect landmines.

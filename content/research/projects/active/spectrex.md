@@ -7,29 +7,23 @@ project_image: "/images/microscope-stockimage.png"
 project_start: "December 1, 2025"
 project_end: "November 30, 2029"
 project_status: 'active'
+project_reference: DAP/25-13
+project_funding: Defense Funded Research (DFR)
+project_rma_involvement: Director
+project_coordinator: "[Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)"
+project_copromotor: "[Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)"
+project_rma_researchers: "[Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: N/A
+project_partners_other: N/A
 keywords:
 - Landmine
 - Trace Explosives
 - Infrared
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: DAP/25-13 
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Bart Simoens (CHCH)](https://researchportal.rma.ac.be/en/persons/bart-simoens-2)
-- Coordinator Affiliation: [Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
-- Project Co-promotor: [Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)
-- RMA Researchers: [Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): N/A
-- Project Partners (Other): N/A
-- Funding: Defense Funded Research (DFR)
-
-{{% /details %}}
+{{< projectheader >}}
 
 ## Context
 All the samples collected on Belgian territory related to energetic materials are sent to FLAX for identification (and in specific cases also quantification). Although analytical tools are present for identification of the most common military, civilian and homemade explosives, it remains sometimes difficult to identify all the compounds in the mixtures, certainly in trace samples. More specifically, the presence of metals such as aluminum is sometimes hard to detect. Aluminum can be present in flash powders which are often used these days as cheap charges in Improvised Explosive Devices (IED).

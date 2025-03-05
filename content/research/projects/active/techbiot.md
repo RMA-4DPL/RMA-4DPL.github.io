@@ -7,6 +7,16 @@ project_image: "/images/Techbiot-final.pdf-Logo-1.png"
 project_start: "December 1, 2022"
 project_end: "November 30, 2025"
 project_status: 'active'
+project_reference: 101103176
+project_funding: European Commission (EC), European Defense Fund (EDF)
+project_rma_involvement: Coordinator
+project_coordinator: "[Leticia Fernandez Velasco (CHCH)](https://researchportal.rma.ac.be/en/persons/leticia-fernandez-velasco)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)"
+project_copromotor: "[Skralan Hosteaux](https://researchportal.rma.ac.be/nl/persons/skralan-hosteaux)"
+project_rma_researchers: "[Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte), [Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics), [DLD Bio](https://researchportal.rma.ac.be/nl/organisations/dld-bio)"
+project_partners_BE_DEF: N/A
+project_partners_other: "[Leibniz Universität Hannover](https://www.uni-hannover.de/), [T4I Engineering](https://www.t4ieng.com/), [The Centre for Research & Technology - Hellas](https://www.certh.gr/), [Tallinn University of Technology](https://taltech.ee/), [Bundesministerium der Verteidigung](https://www.bmvg.de/), [EXUS AI Labs](https://www.exus.ai/), [Interscience](https://inter.science/)"
 keywords:
 - CBRN
 - Gas Chromatography
@@ -19,25 +29,7 @@ keywords:
 - Analytical Tools
 ---
 
-
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: 101103176
-- Royal Military Academy Involvement: Coordinator
-- Project Coordinator: [Leticia Fernandez Velasco (CHCH)](https://researchportal.rma.ac.be/en/persons/leticia-fernandez-velasco)
-- Coordinator Affiliation: [Royal Military Academy, Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)
-- Project Co-promotor: [Skralan Hosteaux](https://researchportal.rma.ac.be/nl/persons/skralan-hosteaux)
-- RMA Researchers: [Oscar Olarte Rodriguez](https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte),
-[Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics), [DLD Bio](https://researchportal.rma.ac.be/nl/organisations/dld-bio)
-- Project Partners (BE-DEF): N/A
-- Project Partners (Other): [Leibniz Universität Hannover](https://www.uni-hannover.de/), [T4I Engineering](https://www.t4ieng.com/), [The Centre for Research & Technology - Hellas](https://www.certh.gr/), [Tallinn University of Technology](https://taltech.ee/), [Bundesministerium der Verteidigung](https://www.bmvg.de/), [EXUS AI Labs](https://www.exus.ai/), [Interscience](https://inter.science/)
-- Funding: European Commission (EC), European Defense Fund (EDF)
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

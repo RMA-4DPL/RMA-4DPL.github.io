@@ -7,6 +7,16 @@ project_image: "/images/tamacare-illustration.png"
 project_start: "January 1, 2025"
 project_end: "December 31, 2027"
 project_status: 'active'
+project_reference: N/A
+project_funding: Defence-related Research Action (DEFRA), 2024
+project_rma_involvement: Coordinator
+project_coordinator: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_copromotor: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
+project_rma_researchers: "[Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)"
+project_partners_rma: N/A
+project_partners_BE_DEF: N/A
+project_partners_other: "[Ghent University](https://www.ugent.be/), [Pozyx](https://www.pozyx.io)"
 keywords:
 - 3D Mapping
 - Infrared Imaging
@@ -16,23 +26,7 @@ keywords:
 - Triage
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Coordinator
-- Project Coordinator: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Co-promotor: [Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)
-- RMA Researchers: [Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)
-- Project Partners (RMA): N/A
-- Project Partners (BE-DEF): N/A
-- Project Partners (Other): [Ghent University](https://www.ugent.be/), [Pozyx](https://www.pozyx.io)
-- Funding: Defence-related Research Action (DEFRA), 2024
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

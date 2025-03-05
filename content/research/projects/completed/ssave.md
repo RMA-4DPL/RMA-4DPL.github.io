@@ -7,27 +7,22 @@ project_image: "/images/SSAVE-logo.png"
 project_start: "2019"
 project_end: "2021"
 project_status: 'completed'
+project_reference: N/A
+project_funding: "[VLAIO](https://www.vlaio.be/), [De Blauwe Cluster](https://www.blauwecluster.be/)"
+project_rma_involvement: Director
+project_coordinator: "[Geert De Cubber (MECA)](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)"
+project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_rma_researchers: "[Rihab Lahouli (MECA)](https://mecatron.rma.ac.be/index.php/people/rihab-lahouli/)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
+project_partners_other: N/A
 keywords:
+- Maritime
 
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Geert De Cubber (MECA)](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
-- Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- RMA Researchers: [Rihab Lahouli (MECA)](https://mecatron.rma.ac.be/index.php/people/rihab-lahouli/)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Project Partners (Other): N/A
-- Funding: [VLAIO](https://www.vlaio.be/), [De Blauwe Cluster](https://www.blauwecluster.be/)
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context

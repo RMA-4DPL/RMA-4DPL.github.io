@@ -7,27 +7,22 @@ project_image: "/images/MarSur-RHIB.jpg"
 project_start: "2019"
 project_end: "2023"
 project_status: 'completed'
+project_reference: N/A
+project_funding: "[Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)"
+project_rma_involvement: Director
+project_coordinator: "[Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)"
+project_coordinator_affiliation: "[Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)"
+project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"
+project_rma_researchers: "[Benoît Pairet (MECA)](https://mecatron.rma.ac.be/index.php/people/benoit-pairet/)"
+project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
+project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
+project_partners_other: "[dotOcean](https://www.dotocean.eu/) "
 keywords:
-
+- Sea Mines
+- Unmanned
 ---
 
-{{% details title="Overview" %}}
-
-- Project code: {{% param "linkTitle" %}}
-- Start date: {{% param "project_start" %}}
-- End date: {{% param "project_end" %}}
-- Reference: N/A
-- Royal Military Academy Involvement: Director
-- Project Coordinator: [Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)
-- Coordinator Affiliation: [Royal Military Academy, Department of Mechanics (MECA)](https://mecatron.rma.ac.be/)
-- Project Co-promotor: [Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)
-- RMA Researchers: [Benoît Pairet (MECA)](https://mecatron.rma.ac.be/index.php/people/benoit-pairet/)
-- Project Partners (RMA): [Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)
-- Project Partners (BE-DEF): [Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)
-- Project Partners (Other): [dotOcean](https://www.dotocean.eu/) 
-- Funding: [Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)
-
-{{% /details %}}
+{{< projectheader >}}
 
 
 ## Context
