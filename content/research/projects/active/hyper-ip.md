@@ -18,6 +18,7 @@ project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal
 project_partners_BE_DEF: N/A 
 project_partners_other: "[FlySight](https://www.flysight.it/), [National Institute of Optics of the National Research Council (CNR-INO)](https://www.ino.cnr.it/), [Leonardo](https://www.leonardo.com/)
 , [Norsk Elektro Optikk (NEO)](https://www.neo.no/), [Imec](https://www.imec.be/)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_HYPER-IP_4D Perception.pdf>)"
 keywords:
 - Hyperspectral Imaging
 - Machine Learning

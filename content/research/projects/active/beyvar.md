@@ -17,6 +17,7 @@ project_rma_researchers: "[Charles Hamesse](https://researchportal.rma.ac.be/en/
 project_partners_rma: "[Signal and Image Centre (CISS)](https://researchportal.rma.ac.be/en/organisations/communication-information-systems-and-sensors)"
 project_partners_BE_DEF: N/A 
 project_partners_other: N/A 
+project_quad_chart: "[Quad Chart](</downloads/Quad_BeyVAR_DAP22-01_4D Perception.pdf>)"
 keywords:
 - 3D Localization and Mapping
 - Infrared Imaging

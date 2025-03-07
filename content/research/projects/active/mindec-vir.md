@@ -17,6 +17,7 @@ project_rma_researchers: TBD
 project_partners_rma: "[Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)"
 project_partners_BE_DEF: N/A 
 project_partners_other: N/A 
+project_quad_chart: "[Quad Chart](</downloads/Quad_MinDec-VIR _DAP25-07_4D Perception.pdf>)"
 keywords:
 - Landmine
 - Spectroscopy

@@ -17,6 +17,7 @@ project_rma_researchers: "[Mario Malizia (MECA)](https://researchportal.rma.ac.b
 project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
 project_partners_BE_DEF: N/A
 project_partners_other: N/A
+project_quad_chart: "[Quad Chart](</downloads/Quad_BELGIAN_DAP23-08_4D Perception.pdf>)"
 keywords:
 - Sensor Fusion
 - 3D reconstruction

@@ -12,6 +12,7 @@
 {{- $project_partners_rma := .Page.Params.project_partners_rma -}}
 {{- $project_partners_BE_DEF := .Page.Params.project_partners_BE_DEF -}}
 {{- $project_partners_other := .Page.Params.project_partners_other -}}
+{{- $project_quad_chart := .Page.Params.project_quad_chart -}}
 
 <div class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group">
     <div
@@ -30,6 +31,9 @@
                         <li><strong>Reference:</strong> {{ $reference | markdownify }}</li>
                         <li><strong>Funding:</strong> {{ $project_funding | markdownify }} </li>
                         <li><strong>Royal Military Academy Involvement:</strong> {{ $project_rma_involvement | markdownify }}</li>
+                        {{- with $project_quad_chart -}}
+                            <li> {{ $project_quad_chart | markdownify}} </li> 
+                        {{- end -}}
                     </ul>
                 </div>
             </div>
@@ -47,8 +51,7 @@
         style="--hextra-feature-grid-cols:1">
         <div class="hx-py-1">
             <details
-                class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-group"
-                open="true">
+                class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-group">
                 <summary
                     class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
                     <strong class="hx-text-lg">Team</strong>

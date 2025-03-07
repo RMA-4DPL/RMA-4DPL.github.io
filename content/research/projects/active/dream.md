@@ -17,6 +17,7 @@ project_rma_researchers: "[Timothée Freville](https://researchportal.rma.ac.be/
 project_partners_rma: "[Robotics & Autonomous Systems (MECA)](https://mecatron.rma.ac.be/)"
 project_partners_BE_DEF: N/A 
 project_partners_other: N/A 
+project_quad_chart: "[Quad Chart](</downloads/Quad_DREAM_DAP22-05_4D Perception.pdf>)"
 keywords:
 - 3D Localization and Mapping
 - Multi-Agent

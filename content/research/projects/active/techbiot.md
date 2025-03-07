@@ -17,6 +17,7 @@ project_rma_researchers: "[Oscar Olarte Rodriguez](https://researchportal.rma.ac
 project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics), [DLD Bio](https://researchportal.rma.ac.be/nl/organisations/dld-bio)"
 project_partners_BE_DEF: N/A
 project_partners_other: "[Leibniz Universität Hannover](https://www.uni-hannover.de/), [T4I Engineering](https://www.t4ieng.com/), [The Centre for Research & Technology - Hellas](https://www.certh.gr/), [Tallinn University of Technology](https://taltech.ee/), [Bundesministerium der Verteidigung](https://www.bmvg.de/), [EXUS AI Labs](https://www.exus.ai/), [Interscience](https://inter.science/)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_TeChBioT_101103176_4D Perception.pdf>)"
 keywords:
 - CBRN
 - Gas Chromatography

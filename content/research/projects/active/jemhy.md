@@ -17,6 +17,7 @@ project_rma_researchers: "[Skralan Hosteaux](https://researchportal.rma.ac.be/en
 project_partners_rma: "[Department of Chemistry (CHCH)](https://researchportal.rma.ac.be/en/organisations/chemistry)"
 project_partners_BE_DEF: N/A 
 project_partners_other: N/A 
+project_quad_chart: "[Quad Chart](</downloads/Quad_JEMHy_DAP23-07_4D Perception.pdf>)" 
 keywords:
 - Hyperspectral Imaging
 - Machine Learning

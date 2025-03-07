@@ -17,6 +17,7 @@ project_rma_researchers: Pierre-Henri Koch, Andy Hanssens
 project_partners_rma: N/A
 project_partners_BE_DEF: "[DOVO/SEDEE](https://www.mil.be/nl/onze-missies/belgie-dovo/) "
 project_partners_other: N/A
+project_quad_chart: "[Quad Chart](</downloads/Quad_Creation of instrumented minefield_4D Perception.pdf>)"
 keywords:
 - Landmine
 - Breaching

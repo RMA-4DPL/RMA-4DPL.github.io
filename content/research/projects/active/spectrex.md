@@ -17,6 +17,7 @@ project_rma_researchers: "[Oscar Olarte Rodriguez](https://researchportal.rma.ac
 project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
 project_partners_BE_DEF: N/A
 project_partners_other: N/A
+project_quad_chart: "[Quad Chart](</downloads/Quad_SpectrEx_DAP25-13_4D Perception.pdf>)"
 keywords:
 - Landmine
 - Trace Explosives

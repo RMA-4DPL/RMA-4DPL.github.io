@@ -16,7 +16,8 @@ project_copromotor: "[Rob Haelterman](https://researchportal.rma.ac.be/en/person
 project_rma_researchers: "[Emile Le Flécher (MECA)](https://mecatron.rma.ac.be/index.php/people/emile-le-flecher/), [Alexander La Grappe (MECA)](https://mecatron.rma.ac.be/index.php/people/alexandre-la-grappe/)"
 project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
 project_partners_BE_DEF: "[Belgian Navy](https://www.mil.be/nl/over-defensie/marinecomponent/)"
-project_partners_other: "[dotOcean](https://www.dotocean.eu/) "
+project_partners_other: "[dotOcean](https://www.dotocean.eu/)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_Multimeter_4D Perception.pdf>)"
 keywords:
 - Unmanned
 - Maritime Mine Detection

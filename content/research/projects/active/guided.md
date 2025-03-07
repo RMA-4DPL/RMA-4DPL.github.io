@@ -17,6 +17,7 @@ project_rma_researchers: "Marnix Enting (MECA)"
 project_partners_rma: "[Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
 project_partners_BE_DEF: N/A 
 project_partners_other: "[InterModalics](https://www.intermodalics.ai/), [Trace VZW](https://www.tracevzw.com/)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_GUIDED_4D Perception.pdf>)"
 keywords:
 - 3D Localization and Mapping
 - Virtual Reality

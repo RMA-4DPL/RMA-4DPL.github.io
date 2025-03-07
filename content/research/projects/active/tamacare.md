@@ -12,11 +12,12 @@ project_funding: Defence-related Research Action (DEFRA), 2024
 project_rma_involvement: Coordinator
 project_coordinator: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
 project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
-project_copromotor: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
+project_copromotor: N/A
 project_rma_researchers: "[Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)"
 project_partners_rma: N/A
 project_partners_BE_DEF: N/A
 project_partners_other: "[Ghent University](https://www.ugent.be/), [Pozyx](https://www.pozyx.io)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_TaMaCare_4D Perception.pdf>)"
 keywords:
 - 3D Mapping
 - Infrared Imaging
