@@ -1,6 +1,6 @@
 ---
 title: Creation of an Instrumented Minefield
-linkTitle: CIM
+linkTitle: CIM # Not an official acronym
 type: docs
 prev: research/projects/
 project_image: "/images/landmine-burried-stockimage.jpg" 

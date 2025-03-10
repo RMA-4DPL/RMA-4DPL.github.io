@@ -20,7 +20,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
   {{< bigcard 
       title="Charles Hamesse" 
-      role="PhD Researcher"
+      role="PhD Researcher, Project Manager"
       image="/images/people/ch-resized.jpg" 
       department="Department of Mathematics"
       interests="3D Perception, Sensor Fusion, SLAM"
@@ -31,7 +31,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
 
 {{< bigcard 
       title="Dr. Hannes De Meulemeester" 
-      role="Research Engineer"
+      role="Researcher"
       image="/images/people/hdm-resized.jpg"
       department="Department of Mathematics"
       interests=""
@@ -41,7 +41,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
 {{< bigcard 
       title="Dr. Skralan Hosteaux" 
-      role="Research Engineer"
+      role="Researcher, Project Manager"
       image="/images/people/sh-resized.jpeg"
       department="Department of Mathematics"
       interests=""
@@ -51,7 +51,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
 {{< bigcard 
       title="Dr. Oscar Olarte" 
-      role="Research Engineer"
+      role="Researcher"
       image="/images/people/oo-resized.jpg"
       department="Department of Mathematics"
       interests=""
@@ -72,9 +72,9 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
   {{< bigcard 
       title="Timothée Fréville" 
-      role="Research Engineer" 
+      role="Researcher" 
       image="/images/people/tf-resized.jpg"
-      department="Department of Mechanics"
+      department="Department of Mathematics"
       research_portal="https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville"
       scholar="https://scholar.google.be/citations?user=jhL-WEwAAAAJ"
       linkedin="https://www.linkedin.com/in/timothee-freville/"
@@ -102,7 +102,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       role="PhD Researcher"
       linkRP="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
       image="/images/people/tt-resized.jpg"
-      department="Department of Mechanics"
+      department="Department of Communications, Information, Systems and Sensors"
       research_portal="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
       scholar="https://scholar.google.com/citations?user=8FJGgsgAAAAJ"
       linkedin="https://www.linkedin.com/in/tiago-troccoli-702911152/"

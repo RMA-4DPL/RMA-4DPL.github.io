@@ -64,12 +64,12 @@
 
   <div class="hx-flex hx-gap-2 hx-px-4 hx-pb-4"> 
     {{- with $scholar -}}
-      <a href="{{ . }}">
+      <a href="{{ . }}" target="_blank">
         {{ partial "icons/icon" $scholar_icon }}
       </a>
     {{- end -}}
     {{- with $linkedin -}}
-      <a href="{{ . }}" class="hx-px-2">
+      <a href="{{ . }}"  target="_blank" class="hx-px-2">
         {{ partial "icons/icon" $linkedin_icon }}
       </a>
     {{- end -}}  

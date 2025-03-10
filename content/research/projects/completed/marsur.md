@@ -7,7 +7,7 @@ project_image: "/images/MarSur-RHIB.jpg"
 project_start: "2019"
 project_end: "2023"
 project_status: 'completed'
-project_reference: N/A
+project_reference: DAP 19/08
 project_funding: "[Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)"
 project_rma_involvement: Director
 project_coordinator: "[Geert De Cubber](https://mecatron.rma.ac.be/index.php/people/geert-de-cubber/)"

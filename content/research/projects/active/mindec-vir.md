@@ -7,7 +7,7 @@ project_image: "/images/landmine-stockimage.png"
 project_start: "October 1, 2025"
 project_end: "September 30, 2029"
 project_status: 'active'
-project_reference: DAP/25-07
+project_reference: DAP 25/07
 project_funding: Defense Funded Research (DFR)
 project_rma_involvement: Director
 project_coordinator: "[Skralan Hosteaux](https://researchportal.rma.ac.be/en/persons/skralan-hosteaux)"

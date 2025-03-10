@@ -7,7 +7,7 @@ project_image: "/images/belgian-f16.jpg"
 project_start: "July 1, 2023"
 project_end: "December 31, 2027"
 project_status: 'active'
-project_reference: DAP/23-07
+project_reference: DAP 23/07
 project_funding: Defense Funded Research (DFR)
 project_rma_involvement: Director
 project_coordinator: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"

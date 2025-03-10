@@ -7,7 +7,7 @@ project_image: "/images/multi-agent-slam.png"
 project_start: "November 1, 2023"
 project_end: "December 31, 2027"
 project_status: 'active'
-project_reference: DAP/22-05
+project_reference: DAP 22/05
 project_funding: Defense Funded Research (DFR)
 project_rma_involvement: Director
 project_coordinator: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"

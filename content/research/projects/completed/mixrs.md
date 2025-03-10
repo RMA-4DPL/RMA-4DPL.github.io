@@ -7,7 +7,7 @@ project_image: "/images/mixrs-rigs.jpg"
 project_start: "January 1, 2019"
 project_end: "October 31, 2023"
 project_status: 'completed'
-project_reference: DAP18/04
+project_reference: DAP 18/04
 project_funding: "[Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)"
 project_rma_involvement: Director
 project_coordinator: "[Rob Haelterman](https://researchportal.rma.ac.be/en/persons/robby-haelterman)"

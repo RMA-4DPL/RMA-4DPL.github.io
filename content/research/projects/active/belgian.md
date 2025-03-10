@@ -7,7 +7,7 @@ project_image: /images/husky-platform.png
 project_start: January 1, 2024
 project_end: December 31, 2027
 project_status: active
-project_reference: DAP/23-08
+project_reference: DAP 23/08
 project_funding: Defense Funded Research (DFR)
 project_rma_involvement: Director
 project_coordinator: "[Ken Hasselman (MECA)](https://mecatron.rma.ac.be/index.php/people/ken-hasselmann/)"
