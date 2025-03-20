@@ -3,7 +3,7 @@ title: Surveillance and Reconnaissance Techniques for Chemical and Biological Th
 linkTitle: TeChBioT
 type: docs
 prev: research/projects/
-project_image: "/images/Techbiot-final.pdf-Logo-1.png"
+project_image: "/images/techbiot_fireman.png"
 project_start: "December 1, 2022"
 project_end: "November 30, 2025"
 project_status: 'active'
