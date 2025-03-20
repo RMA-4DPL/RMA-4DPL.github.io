@@ -1,5 +1,7 @@
 ---
 title: Expertise
+description: Expertise and Sensors of the 4D Perception Lab.
+images: ["images/logo.svg"]
 type: expertise
 weight: 5
 ---

@@ -1,5 +1,7 @@
 ---
 title: Research projects
+description: Active and completed projects of the 4D Perception Lab.
+images: ["images/logo.svg"]
 type: docs
 weight: 2
 prev: docs/first-page

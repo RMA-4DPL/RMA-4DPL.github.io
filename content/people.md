@@ -1,5 +1,7 @@
 ---
 title: People
+description: People of the 4D Perception Lab.
+images: ["images/logo.svg"]
 type: people
 weight: 4
 ---
