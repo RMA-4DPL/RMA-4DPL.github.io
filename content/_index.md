@@ -1,7 +1,7 @@
 ---
 title: 4D Perception Lab
 description: The 4D Perception Lab of the Royal Military Academy (RMA) of Belgium researches spatial-spectral systems with hyperspectral sensing capabilities.
-images: ["images/logo.svg"]
+images: ["images/logo_preview.png"]
 type: default
 toc: false
 weight: 1

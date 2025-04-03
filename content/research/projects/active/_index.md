@@ -1,7 +1,7 @@
 ---
 title: Active Projects
 description: Active projects of the 4D Perception Lab.
-images: ["images/logo.svg"]
+images: ["images/logo_preview.png"]
 type: docs
 weight: 1
 prev: docs/first-page
