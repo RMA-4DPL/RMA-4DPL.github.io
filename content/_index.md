@@ -34,6 +34,7 @@ Feel free to have a look at our current [research projects](/research) or [conta
 
 
 ## News
+- **18 Apr 2025:** Our article "Synthetic generation of GC-IMS records based on Autoencoders" has been accepted for presentation at [IEEE MeMeA 2025](https://memea2025.ieee-ims.org/)!
 - **1 Apr 2025:** We are looking for a new machine learning researcher to join our team! More information can be found [here](https://www.linkedin.com/jobs/view/4197049156). 
 - **1 Apr 2025:** The DFR [Threat Warning Sensor](research/projects/active/tws/) project has been accepted and will start soon.
 - **20 Mar 2025:** Our article "Image Reconstruction for Hyperspectral Pushbroom Cameras Using Visual-Intertial SLAM" has been accepted for presentation at [IEEE IGARSS 2025](https://www.2025.ieeeigarss.org/)!
@@ -41,7 +42,7 @@ Feel free to have a look at our current [research projects](/research) or [conta
 - **20 Mar 2025:** Our article "Mine Detection Using HSI From UAV/UGV: A Brief Overview of Possible Direct and Indirect Approaches" has been accepted for presentation at [IEEE IGARSS 2025](https://www.2025.ieeeigarss.org/)!
 - **20 Mar 2025:** Our article "Methods for Detection and Identification of Chemical Compounds Using GC-IMS" has been accepted for presentation at [IEEE I2MTC 2025](https://i2mtc2025.ieee-ims.org/)!
 - **14 Jan 2025 14h00-14h30:** A seminar by Dr. Skralan Hosteaux on ["Hyperspectral Imaging for Military and Security Applications: Combining Myriad Processing and Sensing Techniques"](https://webinars.rma.ac.be/home/hyperspectral-imaging-for-military-and-security-applications-combining-myriad-processing-and-sensing-techniques).
-- **18 Nov 2024:** Our article ["Depth-Visual-Inertial Mapping System for Robust Indoor 3D Reconstruction"](https://ieeexplore.ieee.org/document/10737432) has been published in the IEEE Robotics and Automation Letters! 
+<!-- - **18 Nov 2024:** Our article ["Depth-Visual-Inertial Mapping System for Robust Indoor 3D Reconstruction"](https://ieeexplore.ieee.org/document/10737432) has been published in the IEEE Robotics and Automation Letters!  -->
 
 
 
