@@ -1,11 +1,11 @@
 ---
-title: Maritime Surveillance 
+title: Enabling operations with multiple heterogeneous unmanned maritime assets
 linkTitle: MarSur
 type: docs
 prev: research/projects/
 project_image: "/images/MarSur-RHIB.jpg"
-project_start: "2019"
-project_end: "2023"
+project_start: "October 1, 2018"
+project_end: "December 31, 2023"
 project_status: 'completed'
 project_reference: DAP 19/08
 project_funding: "[Royal Higher Institute for Defence (RHID)](https://www.defence-institute.be/)"
