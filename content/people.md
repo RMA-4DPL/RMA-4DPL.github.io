@@ -73,15 +73,6 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       linkedin="https://www.linkedin.com/in/darcouchard"
       >}}
   {{< bigcard 
-      title="Timothée Fréville" 
-      role="Researcher" 
-      image="/images/people/tf-resized.jpg"
-      department="Department of Mathematics"
-      research_portal="https://researchportal.rma.ac.be/en/persons/timoth%C3%A9e-fr%C3%A9ville"
-      scholar="https://scholar.google.be/citations?user=jhL-WEwAAAAJ"
-      linkedin="https://www.linkedin.com/in/timothee-freville/"
-      >}}
-  {{< bigcard 
       title="Mario Malizia" 
       role="PhD Researcher"
       image="/images/people/mm-resized.png"
@@ -98,16 +89,6 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       research_portal="https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
       scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
       linkedin="https://www.linkedin.com/in/alessandra-miuccio-159b74239/"
-      >}}
-  {{< bigcard 
-      title="Tiago Troccoli" 
-      role="PhD Researcher"
-      linkRP="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
-      image="/images/people/tt-resized.jpg"
-      department="Department of Communications, Information, Systems and Sensors"
-      research_portal="https://researchportal.rma.ac.be/en/persons/tiago-troccoli-cunha"
-      scholar="https://scholar.google.com/citations?user=8FJGgsgAAAAJ"
-      linkedin="https://www.linkedin.com/in/tiago-troccoli-702911152/"
       >}}
 {{< bigcard 
       title="Émilie Né"
