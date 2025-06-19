@@ -8,6 +8,7 @@ weight: 1
 ---
 
 
+
 <!-- 
 NEW FROM ROB:
 The 4D Perception Lab (4DPL) is a fusion of the previous 3D Perception Lab and the Hyperspectral Research Unit, where the “4D” refers to 3 spatial and 1 spectral dimension.
