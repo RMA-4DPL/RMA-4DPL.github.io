@@ -1,0 +1,55 @@
+{{- $image := .Page.Params.project_image -}}
+{{- $project_code := .Page.Params.linktitle -}}
+{{- $start_date := .Page.Params.project_start -}}
+{{- $end_date := .Page.Params.project_end -}}
+{{- $reference := .Page.Params.project_reference -}}
+{{- $project_funding := .Page.Params.project_funding -}}
+{{- $project_rma_involvement := .Page.Params.project_rma_involvement -}} 
+{{- $project_coordinator := .Page.Params.project_coordinator -}}
+{{- $project_rma_researchers := .Page.Params.project_rma_researchers -}}
+{{- $project_partners := .Page.Params.project_partners -}}
+{{- $project_quad_chart := .Page.Params.project_quad_chart -}}
+
+<div class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-px-1 hx-mt-4 hx-group">
+    <div
+        class="hx-flex hx-items-center hx-select-none hx-list-none hx-p-2 hx-rounded hx-transition-colors  before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
+        <strong class="hx-text-xl">Overview</strong>
+    </div>
+    <div class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-2 hx-gap-10 hx-w-full"
+        style="--hextra-feature-grid-cols:2">
+        <div class="hx-py-1">
+            <div class="hx-p-2 hx-overflow-hidden">
+                <div class="hx-text-left hx-pl-4">
+                    <ul class="hx-list-disc hx-list-inside">
+                        <li><strong>Project Code:</strong> {{ $project_code | markdownify }}</li>
+                        <li><strong>Start Date:</strong> {{ $start_date | markdownify }}</li>
+                        <li><strong>End Date:</strong> {{ $end_date | markdownify }}</li>
+                        <li><strong>Reference:</strong> {{ $reference | markdownify }}</li>
+                        <li><strong>Funding:</strong> {{ $project_funding | markdownify }} </li>
+                        <li><strong>Royal Military Academy Involvement:</strong> {{ $project_rma_involvement | markdownify }}</li>
+                        {{- with $project_coordinator -}}
+                        <li><strong>Coordinator: </strong> {{ $project_coordinator | markdownify }}</li>
+                        {{- end -}}
+                        {{- with $project_rma_researchers -}}
+                        <li><strong>RMA Researchers:</strong> {{ $project_rma_researchers | markdownify }}</li>
+                        {{- end -}}
+                        <li><strong>Partners:</strong> {{ $project_partners | markdownify }}</li>
+                        {{- with $project_quad_chart -}}
+                            <li> {{ $project_quad_chart | markdownify}} </li> 
+                        {{- end -}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hx-px-6">
+            <div class="hx-flex hx-px-6">
+                <div>
+                    <img src="{{ absURL $image }}" alt="Project Logo" loading="lazy" decoding="async" class="hx-w-auto hx-h-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
