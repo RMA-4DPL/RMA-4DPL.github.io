@@ -21,8 +21,8 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       linkedin="https://be.linkedin.com/in/rob-haelterman-43a58b45"
       >}}
   {{< bigcard 
-      title="Charles Hamesse" 
-      role="PhD Researcher, Project Manager"
+      title="Dr. Charles Hamesse" 
+      role="Postdoctoral Researcher, Project Manager"
       image="/images/people/ch-resized.jpg" 
       department="Department of Mathematics"
       interests="3D Perception, Sensor Fusion, SLAM"
@@ -33,7 +33,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
 
 {{< bigcard 
       title="Dr. Hannes De Meulemeester" 
-      role="Researcher"
+      role="Postdoctoral Researcher, Project Manager"
       image="/images/people/hdm-resized.jpg"
       department="Department of Mathematics"
       interests=""
@@ -43,7 +43,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
 {{< bigcard 
       title="Dr. Skralan Hosteaux" 
-      role="Researcher, Project Manager"
+      role="Postdoctoral Researcher, Project Manager"
       image="/images/people/sh-resized.jpeg"
       department="Department of Mathematics"
       interests=""
@@ -53,7 +53,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
 {{< bigcard 
       title="Dr. Oscar Olarte" 
-      role="Researcher"
+      role="Postdoctoral Researcher"
       image="/images/people/oo-resized.jpg"
       department="Department of Mathematics"
       interests=""
@@ -61,7 +61,6 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       scholar="https://scholar.google.be/citations?user=LI5Ol38AAAAJ"
       linkedin="https://www.linkedin.com/in/oscar-olarte"
       >}}
-
   {{< bigcard 
       title="Darius Couchard" 
       role="PhD Researcher"
@@ -69,8 +68,26 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       department="Department of Mathematics"
       interests=""
       research_portal="https://researchportal.rma.ac.be/en/persons/darius-couchard"
-      scholar=""
+      scholar="https://scholar.google.com/citations?user=9XD7rssAAAAJ"
       linkedin="https://www.linkedin.com/in/darcouchard"
+      >}}
+{{< bigcard 
+      title="Mathias Boulanger"
+      role="PhD Researcher" 
+      image="/images/people/mb-resized.jpg"
+      department="Department of Mathematics"
+      research_portal=""
+      scholar=""
+      linkedin="https://www.linkedin.com/in/mathias-boulanger-457373378/"
+      >}}
+{{< bigcard 
+      title="Xenia Ivashkovych"
+      role="Researcher" 
+      image="/images/people/xi-resized.jpg"
+      department="Department of Mathematics"
+      research_portal=""
+      scholar=""
+      linkedin="https://www.linkedin.com/in/vitors-xai/"
       >}}
   {{< bigcard 
       title="Mario Malizia" 
@@ -89,6 +106,15 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       research_portal="https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
       scholar="https://scholar.google.be/citations?user=3fDazuEAAAAJ"
       linkedin="https://www.linkedin.com/in/alessandra-miuccio-159b74239/"
+      >}}
+{{< bigcard 
+      title="Ethan Decleyn"
+      role="PhD Researcher" 
+      image="/images/people/ed-resized.jpg"
+      department="Department of Mathematics"
+      research_portal=""
+      scholar=""
+      linkedin="https://www.linkedin.com/in/ethan-decleyn-84544a249/"
       >}}
 {{< bigcard 
       title="Émilie Né"
