@@ -4,8 +4,8 @@ linkTitle: TWS
 type: docs
 prev: research/projects/
 project_image: /images/tws.png
-project_start: TBC (2025)
-project_end: TBC (+30M)
+project_start: "August 1, 2025"
+project_end: "February 1, 2028"
 project_status: active
 project_reference: N/A
 project_funding: Defence-related Research Action New Generation Combat Aircraft Technologies (DEFRA-NGCAT), 2024
