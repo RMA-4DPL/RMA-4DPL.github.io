@@ -53,7 +53,7 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       >}}
 {{< bigcard 
       title="Dr. Oscar Olarte" 
-      role="Postdoctoral Researcher"
+      role="Postdoctoral Researcher, Project Manager"
       image="/images/people/oo-resized.jpg"
       department="Department of Mathematics"
       interests=""
