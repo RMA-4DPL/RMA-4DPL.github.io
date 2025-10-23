@@ -117,6 +117,15 @@ The 4D Perception Lab is a transversal research unit rooted in the Department of
       linkedin="https://www.linkedin.com/in/ethan-decleyn-84544a249/"
       >}}
 {{< bigcard 
+      title="Anis Dhifi"
+      role="PhD Researcher" 
+      image="/images/people/ad-resized.png"
+      department="Department of Mathematics"
+      research_portal=""
+      scholar=""
+      linkedin="https://www.linkedin.com/in/anis-dhifi-b9b92a177/"
+      >}}
+{{< bigcard 
       title="Émilie Né"
       role="Project Manager"
       linkRP="https://researchportal.rma.ac.be/nl/persons/%C3%A9milie-n%C3%A9"
