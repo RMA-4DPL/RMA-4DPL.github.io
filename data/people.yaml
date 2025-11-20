@@ -213,6 +213,21 @@
 
 ### EXTERNAL
 
+- id: "sam_leroux"
+  name: "Sam Leroux"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Ghent University - imec, IDLab"
+  department: ""
+  interests: ""
+  social:
+    researchportal: "https://users.ugent.be/~sleroux/"
+    scholar: "https://scholar.google.be/citations?user=bYlyoZgAAAAJ"
+    linkedin: "https://www.linkedin.com/in/sam-leroux-a72a9699/"
+    orcid: "0000-0003-3792-5026"
+
+
 - id: "stefanie_schroeder"
   name: "Stefanie Schroeder"
   4DPL: false

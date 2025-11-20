@@ -38,7 +38,7 @@ super-resolution methods, in the target domain. The implementation and data set 
 
 
 
-{{< paper_authors "darius_couchard" "hannes_de_meulemeester" "rob_haelterman" >}}
+{{< paper_authors "darius_couchard" "hannes_de_meulemeester" "rob_haelterman" "sam_leroux" >}}
 
 
 {{< paper_citation >}}
