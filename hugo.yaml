@@ -1,6 +1,10 @@
 # Hugo configuration file
 title: 4D Perception Lab
 
+# Pagination settings
+paginate: 8
+paginatePath: page
+
 # import hextra as module
 module:
   imports:
@@ -25,6 +29,9 @@ menu:
     - name: Research
       pageRef: /research
       weight: 2
+    - name: News
+      pageRef: /news
+      weight: 3
     - name: People
       pageRef: /people
       weight: 4
@@ -62,7 +69,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.svg
+      path: images/logo light 128x128.png 
+      dark: images/logo dark 128x128.png
       link: /
       width: 40
       height: 40

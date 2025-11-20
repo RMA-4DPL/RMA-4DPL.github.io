@@ -1,0 +1,286 @@
+### 4DPL
+
+- id: "rob_haelterman"
+  name: "Rob Haelterman"
+  title: "Prof."
+  4DPL: true
+  role: "Head of Research Unit"
+  image: "/images/people/rh-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: "Numerical Methods, Sensor Fusion, Hyperspectral Imaging"
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/robby-haelterman"
+    scholar: "https://scholar.google.com/citations?hl=en&user=OQJ8ctsAAAAJ"
+    linkedin: "https://be.linkedin.com/in/rob-haelterman-43a58b45"
+    orcid: "0000-0002-1610-2218"
+
+- id: "charles_hamesse"
+  name: "Charles Hamesse"
+  title: "Dr."
+  4DPL: true
+  role: "Postdoctoral Researcher, Project Manager"
+  image: "/images/people/ch-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: "3D Perception, Sensor Fusion, SLAM"
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/charles-hamesse"
+    scholar: "https://scholar.google.com/citations?user=19a7OPUAAAAJ"
+    linkedin: "https://www.linkedin.com/in/charleshamesse/"
+    orcid: "0000-0002-2321-0620"
+
+- id: "hannes_de_meulemeester"
+  name: "Hannes De Meulemeester"
+  title: "Dr."
+  4DPL: true
+  role: "Postdoctoral Researcher, Project Manager"
+  image: "/images/people/hdm-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester"
+    scholar: "https://scholar.google.com/citations?user=hoTz9VsAAAAJ"
+    linkedin: "https://www.linkedin.com/in/hannes-de-meulemeester/"
+    orcid: "0000-0002-5938-2387"
+
+- id: "skralan_hosteaux"
+  name: "Skralan Hosteaux"
+  title: "Dr."
+  4DPL: true
+  role: "Postdoctoral Researcher, Project Manager"
+  image: "/images/people/sh-resized.jpeg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/skralan-hosteaux"
+    scholar: "https://scholar.google.com/citations?user=eWCBa1gAAAAJ"
+    linkedin: "https://www.linkedin.com/in/skralan-hosteaux-b32422168"
+    orcid: "0009-0001-8011-2891"
+
+- id: "oscar_olarte"
+  name: "Oscar Olarte"
+  title: "Dr."
+  4DPL: true
+  role: "Postdoctoral Researcher, Project Manager"
+  image: "/images/people/oo-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/rodriguez-oscar-olarte"
+    scholar: "https://scholar.google.be/citations?user=LI5Ol38AAAAJ"
+    linkedin: "https://www.linkedin.com/in/oscar-olarte"
+    orcid: "0000-0002-7712-3530"
+
+- id: "darius_couchard"
+  name: "Darius Couchard"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/dc-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/darius-couchard"
+    scholar: "https://scholar.google.com/citations?user=9XD7rssAAAAJ"
+    linkedin: "https://www.linkedin.com/in/darcouchard"
+    orcid: "0009-0007-5500-1050"
+
+- id: "mathias_boulanger"
+  name: "Mathias Boulanger"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/mb-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/mathias-boulanger/"
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/mathias-boulanger-457373378/"
+    orcid: ""
+
+- id: "xenia_ivashkovych"
+  name: "Xenia Ivashkovych"
+  title: ""
+  4DPL: true
+  role: "Researcher"
+  image: "/images/people/xi-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/xenia-ivashkovych/"
+    scholar: "https://scholar.google.com/citations?user=vP1Y2iYAAAAJ"
+    linkedin: "https://www.linkedin.com/in/vitors-xai/"
+    orcid: "0000-0002-6978-6211"
+
+- id: "mario_malizia"
+  name: "Mario Malizia"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/mm-resized.png"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mechanics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/mario-malizia"
+    scholar: "https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+    linkedin: "https://www.linkedin.com/in/mario-malizia"
+    orcid: "0009-0008-6618-5059"
+
+- id: "alessandra_miuccio"
+  name: "Alessandra Miuccio"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/am-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mechanics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
+    scholar: "https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+    linkedin: "https://www.linkedin.com/in/alessandra-miuccio-159b74239/"
+    orcid: ""
+
+- id: "ethan_decleyn"
+  name: "Ethan Decleyn"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/ed-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/ethan-decleyn-84544a249/"
+    orcid: ""
+
+- id: "anis_dhifi"
+  name: "Anis Dhifi"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/ad-resized.png"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/anis-dhifi-b9b92a177/"
+    orcid: ""
+
+- id: "emilie_ne"
+  name: "Émilie Né"
+  title: ""
+  4DPL: true
+  role: "Project Manager"
+  image: "/images/people/en-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/nl/persons/%C3%A9milie-n%C3%A9"
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/emilie-n%C3%A9-10983a47"
+    orcid: ""
+
+### RMA
+- id: "leticia_velasco"
+  name: "Leticia Fernandez Velasco"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Royal Military Academy"
+  department: "Department of Chemistry"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/leticia-fernandez-velasco/"
+    scholar: "https://scholar.google.be/citations?user=BW3XD4oAAAAJ"
+    linkedin: "https://www.linkedin.com/in/leticia-fernandez-velasco-a114371a9/"
+    orcid: "0000-0003-2456-7135"
+
+
+### EXTERNAL
+
+- id: "stefanie_schroeder"
+  name: "Stefanie Schroeder"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Bundeswehr Research Institute for Protective Technologies and CBRN Protection"
+  department: ""
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: ""
+    orcid: ""
+
+- id: "maria_allers"
+  name: "Maria Allers"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Bundeswehr Research Institute for Protective Technologies and CBRN Protection"
+  department: ""
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: ""
+    orcid: ""
+
+
+- id: "michiel_vlaminck"
+  name: "Michiel Vlaminck"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Ghent University, Imec"
+  department: ""
+  interests: ""
+  social:
+    researchportal: "https://urc.ugent.be/author/michiel-vlaminck/"
+    scholar: "https://scholar.google.com/citations?user=kEtpfRMAAAAJ"
+    linkedin: "https://www.linkedin.com/in/michiel-vlaminck-3bba6838/"
+    orcid: "0000-0003-3986-823X"
+
+- id: "hiep_luong"
+  name: "Hiep Luong"
+  4DPL: false
+  role: ""
+  image: ""
+  affiliation: "Ghent University, Imec"
+  department: ""
+  interests: ""
+  social:
+    researchportal: "https://telin.ugent.be/~hluong/"
+    scholar: "https://scholar.google.com/citations?user=Who7FY8AAAAJ"
+    linkedin: "https://www.linkedin.com/in/hiep-luong-6013ba49/"
+    orcid: ""
+
+### TEST
+- id: "test_id"
+  name: "Test User"
+  4DPL: false
+  role: "Tester"
+  image: "/images/logos/rma.png"
+  affiliation: "Test Academy"
+  department: "Department of Test"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: ""
+    orcid: ""

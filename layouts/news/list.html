@@ -1,0 +1,137 @@
+{{ define "main" }}
+<div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+  <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+      {{ if .Params.news_title }}
+      <h1 class="hx-text-center hx-mt-2 hx-mb-8 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">
+        {{ .Params.news_title }}
+      </h1>
+      {{ end }}
+      
+      {{ if .Content }}
+      <div class="hx-text-center hx-mb-12 hx-text-lg hx-text-slate-600 dark:hx-text-slate-400">
+        {{ .Content }}
+      </div>
+      {{ end }}
+
+      <!-- News Articles Grid -->
+      <div class="news-list hx-space-y-6">
+        {{ range .Paginator.Pages }}
+        <article class="news-card hx-rounded-lg hx-shadow-md hover:hx-shadow-xl hx-transition-shadow hx-duration-300 hx-p-6 hx-border hx-border-gray-200 dark:hx-border-gray-700">
+          <div class="hx-flex hx-flex-col md:hx-flex-row hx-gap-6">
+            <div class="hx-flex-1">
+              <div class="hx-flex hx-items-center hx-gap-3 hx-mb-3">
+                <time class="hx-text-sm hx-font-medium hx-text-blue-600 dark:hx-text-blue-400" datetime="{{ .Date.Format "2006-01-02" }}">
+                  {{ .Date.Format "January 2, 2006" }}
+                </time>
+              </div>
+              
+              <h2 class="hx-text-2xl hx-font-bold hx-mb-3 hx-text-slate-900 dark:hx-text-slate-100">
+                <a href="{{ .Permalink }}" class="hover:hx-text-blue-600 dark:hover:hx-text-blue-400 hx-transition-colors">
+                  {{ .Params.news_title }}
+                </a>
+              </h2>
+              
+              {{ if .Params.news_summary }}
+              <p class="hx-text-slate-600 dark:hx-text-slate-400 hx-mb-4 hx-leading-relaxed">
+                {{ .Params.news_summary }}
+              </p>
+              {{ end }}
+              
+              <a href="{{ .Permalink }}" class="hx-inline-flex hx-items-center hx-text-blue-600 dark:hx-text-blue-400 hover:hx-text-blue-700 dark:hover:hx-text-blue-300 hx-font-medium hx-transition-colors">
+                Read more
+                <svg class="hx-w-4 hx-h-4 hx-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+
+      <!-- Pagination (Hextra-style buttons, light/dark aware) -->
+      {{ $paginator := .Paginator }}
+      {{ if gt $paginator.TotalPages 1 }}
+      <nav class="hx-mt-12 hx-mb-8" aria-label="Pagination">
+        <ul class="hx-flex hx-justify-center hx-items-center hx-gap-2 hx-flex-wrap">
+          <!-- Previous Button -->
+          {{ if $paginator.HasPrev }}
+          <li>
+            <a href="{{ $paginator.Prev.URL }}" 
+               class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-slate-200 dark:hx-border-neutral-800 hx-bg-white dark:hx-bg-neutral-900 hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-900 dark:hx-text-slate-100 hover:hx-bg-slate-50 dark:hover:hx-bg-neutral-800 hx-transition-colors">
+              <svg class="hx-w-4 hx-h-4 hx-mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+              </svg>
+              Previous
+            </a>
+          </li>
+          {{ else }}
+          <li>
+            <span class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-slate-200/80 dark:hx-border-neutral-800/70 hx-bg-slate-50/80 dark:hx-bg-neutral-900/60 hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-500 dark:hx-text-slate-600 hx-cursor-not-allowed">
+              <svg class="hx-w-4 hx-h-4 hx-mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+              </svg>
+              Previous
+            </span>
+          </li>
+          {{ end }}
+
+          <!-- Page Numbers -->
+          {{ $currentPage := $paginator.PageNumber }}
+          {{ $totalPages := $paginator.TotalPages }}
+          {{ range $paginator.Pagers }}
+            {{ $pageNum := .PageNumber }}
+            {{ if or (eq $pageNum 1) (eq $pageNum $totalPages) (and (ge $pageNum (sub $currentPage 2)) (le $pageNum (add $currentPage 2))) }}
+              {{ if eq $pageNum $currentPage }}
+              <li>
+                <span class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-blue-500/80 hx-bg-blue-500 hx-px-4 hx-py-2 hx-text-sm hx-font-semibold">
+                  {{ $pageNum }}
+                </span>
+              </li>
+              {{ else }}
+              <li>
+                <a href="{{ .URL }}" 
+                   class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-slate-200 dark:hx-border-neutral-800 hx-bg-white dark:hx-bg-neutral-900 hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-900 dark:hx-text-slate-100 hover:hx-bg-slate-50 dark:hover:hx-bg-neutral-800 hx-transition-colors">
+                  {{ $pageNum }}
+                </a>
+              </li>
+              {{ end }}
+            {{ else if or (eq $pageNum (sub $currentPage 3)) (eq $pageNum (add $currentPage 3)) }}
+              <li>
+                <span class="hx-inline-flex hx-items-center hx-px-2 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-500 dark:hx-text-slate-500">
+                  ...
+                </span>
+              </li>
+            {{ end }}
+          {{ end }}
+
+          <!-- Next Button -->
+          {{ if $paginator.HasNext }}
+          <li>
+            <a href="{{ $paginator.Next.URL }}" 
+               class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-slate-200 dark:hx-border-neutral-800 hx-bg-white dark:hx-bg-neutral-900 hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-900 dark:hx-text-slate-100 hover:hx-bg-slate-50 dark:hover:hx-bg-neutral-800 hx-transition-colors">
+              Next
+              <svg class="hx-w-4 hx-h-4 hx-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </li>
+          {{ else }}
+          <li>
+            <span class="hx-inline-flex hx-items-center hx-rounded-lg hx-border hx-border-slate-200/80 dark:hx-border-neutral-800/70 hx-bg-slate-50/80 dark:hx-bg-neutral-900/60 hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-text-slate-500 dark:hx-text-slate-600 hx-cursor-not-allowed">
+              Next
+              <svg class="hx-w-4 hx-h-4 hx-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </span>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+      {{ end }}
+    </main>
+  </article>
+</div>
+{{ end }}

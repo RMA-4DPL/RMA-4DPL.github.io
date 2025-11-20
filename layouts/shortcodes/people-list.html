@@ -1,0 +1,8 @@
+{{/* People list shortcode - dynamically loads people from data/people.yaml */}}
+<div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid hx-not-prose" style="--hextra-cards-grid-cols: 3;">
+  {{ range .Site.Data.people }}
+    {{ if index . "4DPL" }}
+      {{ partial "people-card.html" . }}
+    {{ end }}
+  {{ end }}
+</div>

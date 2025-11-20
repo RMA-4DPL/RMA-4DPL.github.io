@@ -1,0 +1,36 @@
+{{/*
+    Paper Info Partial
+    Common utility functions and styling for paper-related content
+    
+    Usage in templates:
+    {{ partial "paper_info.html" . }}
+*/}}
+
+{{- $page := . -}}
+
+{{- if $page.Params.paper_type -}}
+<div class="paper-metadata hx-hidden">
+  <!-- Schema.org structured data for academic papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": {{ $page.Title }},
+    "datePublished": {{ $page.Date.Format "2006-01-02" }},
+    {{- if $page.Params.authors -}}
+    "author": {{ $page.Params.authors | jsonify }},
+    {{- end -}}
+    {{- if $page.Params.abstract -}}
+    "abstract": {{ $page.Params.abstract }},
+    {{- end -}}
+    {{- if $page.Params.keywords -}}
+    "keywords": {{ $page.Params.keywords | jsonify }},
+    {{- end -}}
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.Title }}
+    }
+  }
+  </script>
+</div>
+{{- end -}}

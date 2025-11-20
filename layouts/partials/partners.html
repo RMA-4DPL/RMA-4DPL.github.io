@@ -1,0 +1,10 @@
+<div class="hx-mt-8 hx-mb-8">
+    <div class="hx-flex hx-justify-between hx-items-center">
+        <h2 class="hx-text-4xl hx-font-bold hx-text-slate-900 dark:hx-text-slate-100">Partners</h2>
+    </div>
+    <div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
+    {{ partial "shortcodes/card.html" (dict "page" . "link" "https://mecatron.rma.ac.be" "title" "MECA - RAS Lab" "subtitle" "Royal Military Academy" "image" "/images/logos/raslab.png" "imageStyle" "height: 160px; object-fit: contain; background-color: white;padding: 10px;") }}
+    {{ partial "shortcodes/card.html" (dict "page" . "link" "https://optro.rma.ac.be" "title" "CISS - Optro" "subtitle" "Royal Military Academy" "image" "/images/logos/optro.jpg" "imageStyle" "height: 160px; object-fit: contain;  background-color: white; padding: 10px;") }}
+    {{ partial "shortcodes/card.html" (dict "page" . "link" "https://researchportal.rma.ac.be/en/organisations/chemistry" "title" "Department of Chemistry (CHCH)" "subtitle" "Royal Military Academy" "image" "/images/logos/rma.jpg" "imageStyle" "height: 160px; object-fit: cover; background-color: white;padding: 10px;") }}
+    </div>
+</div>

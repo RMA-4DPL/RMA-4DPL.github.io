@@ -1,0 +1,102 @@
+{{/*
+    Paper Authors Shortcode
+    Displays author information in a clean, professional format
+    
+    Usage:
+    {{< paper_authors "charles_hamesse" "rob_haelterman" >}}
+    
+    Simply provide the author IDs from people.yaml as space-separated arguments.
+*/}}
+
+{{- $people := site.Data.people -}}
+{{- $authorIDs := split (.Get 0) " " -}}
+{{- if ge (len .Params) 2 -}}
+  {{- $authorIDs = .Params -}}
+{{- end -}}
+
+{{- $authors := slice -}}
+{{- range $authorIDs -}}
+  {{- $authorID := trim . " \n\t" -}}
+  {{- range $people -}}
+    {{- if eq .id $authorID -}}
+      {{- $authors = $authors | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="paper-authors hx-my-8">
+  <h2 class="hx-text-2xl hx-font-bold hx-text-gray-900 dark:hx-text-gray-100 hx-mb-6 hx-flex hx-items-center">
+    <svg class="hx-w-6 hx-h-6 hx-mr-2 hx-text-blue-500" height="24" width="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+    </svg>
+    Authors
+  </h2>
+  
+  <div class="authors-grid hx-grid hx-grid-cols-1 md:hx-grid-cols-2 hx-gap-4">
+    {{- range $authors -}}
+    <div class="author-card hx-p-4 hx-rounded-lg hx-bg-white dark:hx-bg-gray-800 hx-border hx-border-gray-200 dark:hx-border-gray-700 hover:hx-shadow-md hx-transition-shadow">
+      <h3 class="hx-text-lg hx-font-semibold hx-text-gray-900 dark:hx-text-gray-100 hx-mb-2">
+        {{ .name }}
+      </h3>
+      
+
+      {{- if .affiliation -}}
+      <p class="hx-text-sm hx-text-gray-600 dark:hx-text-gray-400 hx-mb-2 hx-flex hx-items-start">
+        <svg class="hx-w-4 hx-h-4 hx-mr-2 hx-mt-0.5 hx-flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+        </svg>
+        <span>{{ .affiliation }}</span>
+      </p>
+      {{- end -}}
+      
+      <div class="author-links hx-flex hx-flex-wrap hx-gap-2 hx-mt-3">
+        {{- if .social -}}
+        {{- if .social.orcid -}}
+        <a href="https://orcid.org/{{ .social.orcid }}" target="_blank" rel="noopener noreferrer"
+           class="hx-inline-flex hx-items-center hx-text-xs hx-px-2 hx-py-1 hx-rounded hx-bg-green-100 dark:hx-bg-green-900 hx-text-green-700 dark:hx-text-green-300 hover:hx-bg-green-200 dark:hover:hx-bg-green-800 hx-transition-colors"
+           title="ORCID">
+          <svg class="hx-w-3 hx-h-3 hx-mr-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416z"/>
+          </svg>
+          ORCID
+        </a>
+        {{- end -}}
+        
+        {{- if .social.researchportal -}}
+        <a href="{{ .social.researchportal }}" target="_blank" rel="noopener noreferrer"
+           class="hx-inline-flex hx-items-center hx-text-xs hx-px-2 hx-py-1 hx-rounded hx-bg-blue-100 dark:hx-bg-blue-900 hx-text-blue-700 dark:hx-text-blue-300 hover:hx-bg-blue-200 dark:hover:hx-bg-blue-800 hx-transition-colors"
+           title="Research Portal">
+          <svg class="hx-w-3 hx-h-3 hx-mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+          </svg>
+          Portal
+        </a>
+        {{- end -}}
+        
+        {{- if .social.scholar -}}
+        <a href="{{ .social.scholar }}" target="_blank" rel="noopener noreferrer"
+           class="hx-inline-flex hx-items-center hx-text-xs hx-px-2 hx-py-1 hx-rounded hx-bg-purple-100 dark:hx-bg-purple-900 hx-text-purple-700 dark:hx-text-purple-300 hover:hx-bg-purple-200 dark:hover:hx-bg-purple-800 hx-transition-colors"
+           title="Google Scholar">
+          <svg class="hx-w-3 hx-h-3 hx-mr-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+          </svg>
+          Scholar
+        </a>
+        {{- end -}}
+        
+        {{- if .social.linkedin -}}
+        <a href="{{ .social.linkedin }}" target="_blank" rel="noopener noreferrer"
+           class="hx-inline-flex hx-items-center hx-text-xs hx-px-2 hx-py-1 hx-rounded hx-bg-blue-100 dark:hx-bg-blue-900 hx-text-blue-700 dark:hx-text-blue-300 hover:hx-bg-blue-200 dark:hover:hx-bg-blue-800 hx-transition-colors"
+           title="LinkedIn">
+          <svg class="hx-w-3 hx-h-3 hx-mr-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          LinkedIn
+        </a>
+        {{- end -}}
+        {{- end -}}
+      </div>
+    </div>
+    {{- end -}}
+  </div>
+</div>

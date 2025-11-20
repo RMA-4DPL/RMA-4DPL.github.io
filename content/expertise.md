@@ -3,7 +3,7 @@ title: Expertise
 description: Expertise and Sensors of the 4D Perception Lab.
 images: ["images/logo_preview.png"]
 type: expertise
-weight: 5
+weight: 4
 ---
 
 

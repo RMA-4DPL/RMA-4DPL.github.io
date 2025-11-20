@@ -3,7 +3,7 @@ title: Detection in Urban scenario using Combined Airborne imaging Sensors
 linkTitle: DUCAS
 type: docs
 prev: research/projects/
-project_image: "/images/logos/rma.png"
+project_image: "/images/DUCAS.jpg"
 project_start: "2009"
 project_end: "2013"
 project_status: 'completed'

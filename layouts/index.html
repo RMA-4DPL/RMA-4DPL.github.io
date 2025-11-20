@@ -25,6 +25,53 @@
         <div class="content">
           {{ .Content }}
         </div>
+
+        <!-- Recent News Section -->
+        {{ $newsPages := where .Site.RegularPages "Section" "news" }}
+        {{ if gt (len $newsPages) 0 }}
+        <div class="hx-mt-12 hx-mb-12">
+          <div class="hx-flex hx-justify-between hx-items-center hx-mb-8">
+            <h2 class="hx-text-4xl hx-font-bold hx-text-slate-900 dark:hx-text-slate-100">Latest News</h2>
+            <a href="/news" class="hx-inline-flex hx-items-center hx-text-blue-600 dark:hx-text-blue-400 hover:hx-text-blue-700 dark:hover:hx-text-blue-300 hx-font-medium hx-transition-colors">
+              View all news
+              <svg class="hx-w-4 hx-h-4 hx-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+          
+          <!-- Show only the title of the latest 4 news articles-->
+          <div class="hx-grid hx-gap-4 md:hx-grid-cols-2 lg:hx-grid-cols-3">
+            {{ range first 4 $newsPages }}
+            <article class="news-card-compact hx-rounded-lg hx-shadow-md hover:hx-shadow-xl hx-transition-shadow hx-duration-300 hx-p-4 hx-border hx-border-gray-200 dark:hx-border-gray-700 hx-flex hx-flex-col">
+              <time class="hx-text-sm hx-font-medium hx-text-blue-600 dark:hx-text-blue-400 hx-mb-3" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              
+              <h3 class="hx-text-xl hx-font-bold hx-mb-2 hx-text-slate-900 dark:hx-text-slate-100 hx-flex-grow">
+                <a href="{{ .Permalink }}" class="hover:hx-text-blue-600 dark:hover:hx-text-blue-400 hx-transition-colors">
+                  {{ .Params.news_title }}
+                </a>
+              </h3>
+              
+              {{/*  {{ if .Params.news_summary }}
+              <p class="hx-text-slate-600 dark:hx-text-slate-400 hx-mb-2 hx-text-sm hx-line-clamp-3">
+                {{ .Params.news_summary }}
+              </p>
+              {{ end }}  */}}
+              
+              <a href="{{ .Permalink }}" class="hx-inline-flex hx-items-center hx-text-blue-600 dark:hx-text-blue-400 hover:hx-text-blue-700 dark:hover:hx-text-blue-300 hx-font-medium hx-text-sm hx-transition-colors hx-mt-auto">
+                Read more
+                <svg class="hx-w-4 hx-h-4 hx-ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </article>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ partial "partners.html" . }}
       </main>
     </article>
   </div>

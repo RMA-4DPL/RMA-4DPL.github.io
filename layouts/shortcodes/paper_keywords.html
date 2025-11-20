@@ -1,0 +1,26 @@
+{{/*
+    Paper Keywords Shortcode
+    Displays research keywords/tags
+    
+    Usage:
+    {{< paper_keywords "Computer Vision, Machine Learning, Robotics, SLAM" >}}
+*/}}
+
+{{- $keywordsStr := .Get 0 -}}
+{{- $keywords := split $keywordsStr ", " -}}
+
+<div class="paper-keywords hx-my-6">
+  <h3 class="hx-text-sm hx-font-semibold hx-text-gray-700 dark:hx-text-gray-300 hx-mb-3 hx-uppercase hx-tracking-wide">
+    Keywords
+  </h3>
+  <div class="keywords-list hx-flex hx-flex-wrap hx-gap-2">
+    {{- range $keywords -}}
+    <span class="keyword-tag hx-inline-flex hx-items-center hx-px-3 hx-py-1.5 hx-rounded-full hx-text-sm hx-font-medium hx-bg-indigo-100 hx-text-indigo-800 dark:hx-bg-indigo-900 dark:hx-text-indigo-200 hx-border hx-border-indigo-200 dark:hx-border-indigo-800">
+      <svg class="hx-w-3 hx-h-3 hx-mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
+      </svg>
+      {{ . }}
+    </span>
+    {{- end -}}
+  </div>
+</div>

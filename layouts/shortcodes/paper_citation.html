@@ -1,0 +1,69 @@
+{{/*
+    Paper Citation Shortcode
+    Displays citations in multiple formats using citation.js
+    
+    Usage:
+    {{< paper_citation bibtex_key="dvi-mapping-2024" >}}
+    
+    Parameters:
+    - bibtex_key: The key of the BibTeX entry in /static/bibtex/all.bib
+*/}}
+
+{{- $bibtex_key := .Get "bibtex_key" | default .Page.Params.bibtex_key -}}
+{{- $bibtex_file := "/bibtex/all.bib" -}}
+
+{{- $citation_script := resources.Get "js/citation.min.js" | resources.Fingerprint "sha256" -}}
+
+<div class="paper-citation hx-my-8" 
+     data-bibtex-key="{{ $bibtex_key }}" 
+     data-bibtex-file="{{ $bibtex_file }}">
+  <h2 class="hx-text-2xl hx-font-bold hx-text-gray-900 dark:hx-text-gray-100 hx-mb-4 hx-flex hx-items-center">
+    <svg class="hx-w-6 hx-h-6 hx-mr-2 hx-text-blue-500 hx-flex-shrink-0" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path>
+    </svg>
+    Cite this work
+  </h2>
+  
+  <p class="hx-text-gray-600 dark:hx-text-gray-400 hx-mb-4">
+    Select your preferred citation format:
+  </p>
+
+  <!-- Citation Format Tabs -->
+  <div class="citation-tabs hx-mb-4">
+    <div class="hx-flex hx-flex-wrap hx-gap-2 hx-border-b hx-border-gray-200 dark:hx-border-gray-700">
+      <button class="citation-tab-btn hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-border-b-2 hx-border-blue-500 hx-text-blue-600 dark:hx-text-blue-400" data-format="apa">
+        APA
+      </button>
+      <button class="citation-tab-btn hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-border-b-2 hx-border-transparent hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hover:hx-border-gray-300" data-format="mla">
+        MLA
+      </button>
+      <button class="citation-tab-btn hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-border-b-2 hx-border-transparent hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hover:hx-border-gray-300" data-format="chicago">
+        Chicago
+      </button>
+      <button class="citation-tab-btn hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-border-b-2 hx-border-transparent hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hover:hx-border-gray-300" data-format="ieee">
+        IEEE
+      </button>
+      <button class="citation-tab-btn hx-px-4 hx-py-2 hx-text-sm hx-font-medium hx-border-b-2 hx-border-transparent hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hover:hx-border-gray-300" data-format="bibtex">
+        BibTeX
+      </button>
+    </div>
+  </div>
+
+  <!-- Citation Display Area -->
+  <div class="citation-content hx-relative">
+    <div id="citation-text" class="hx-p-4 hx-bg-gray-50 dark:hx-bg-gray-900 hx-rounded-md hx-font-mono hx-text-sm hx-text-gray-800 dark:hx-text-gray-200 hx-overflow-x-auto hx-whitespace-pre-wrap hx-break-words">
+      <span class="hx-text-gray-400">Loading citation...</span>
+    </div>
+  </div>
+</div>
+
+{{- $citation_lib := resources.Get "js/citation.min.js" -}}
+{{- $citation_logic := resources.Get "js/paper-citation.js" -}}
+{{- if and $citation_lib $citation_logic -}}
+  {{- $citation_bundle := slice $citation_lib $citation_logic | resources.Concat "js/citation-bundle.js" | resources.Minify | resources.Fingerprint "sha256" -}}
+  <script src="{{ $citation_bundle.RelPermalink }}" defer></script>
+{{- else -}}
+  {{- warnf "citation.min.js or paper-citation.js not found. The citations may not work." -}}
+{{- end -}}
+
+
