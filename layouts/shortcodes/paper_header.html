@@ -22,7 +22,7 @@
 {{- $doi := .Get "doi" | default .Page.Params.doi -}}
 {{- $pdf_url := .Get "pdf_url" | default .Page.Params.pdf_url -}}
 
-<div class="paper-header hx-mb-6 hx-rounded-lg hx-overflow-hidden hx-border hx-border-gray-200 dark:hx-border-gray-700 ">
+<div class="paper-header hx-mb-6 hx-rounded-lg hx-overflow-hidden hx-border">
   {{- if $image -}}
   <div class="paper-header-image hx-w-full hx-overflow-hidden">
     <img src="{{ $image | relURL }}" 
@@ -32,29 +32,29 @@
   </div>
   {{- end -}}
   
-  <div class="paper-header-meta hx-p-6 hx-bg-gradient-to-br hx-from-blue-50 hx-to-indigo-50 dark:hx-from-gray-800 dark:hx-to-gray-900">
+  <div class="paper-header-meta hx-p-6">
     <div class="hx-flex hx-flex-wrap hx-gap-3 hx-mb-4">
-      <span class="hx-inline-flex hx-items-center hx-px-3 hx-py-1 hx-rounded-full hx-text-sm hx-font-medium hx-bg-blue-100 hx-text-blue-800 dark:hx-bg-blue-900 dark:hx-text-blue-200">
+      <span class="paper-type-badge hx-inline-flex hx-items-center hx-px-3 hx-py-1 hx-rounded-full hx-text-sm hx-font-medium">
         {{ $paper_type }}
       </span>
-      <span class="hx-inline-flex hx-items-center hx-px-3 hx-py-1 hx-rounded-full hx-text-sm hx-font-medium hx-bg-green-100 hx-text-green-800 dark:hx-bg-green-900 dark:hx-text-green-200">
+      <span class="paper-status-badge hx-inline-flex hx-items-center hx-px-3 hx-py-1 hx-rounded-full hx-text-sm hx-font-medium">
         {{ $status }}
       </span>
     </div>
     
     {{- if $venue -}}
     <div class="hx-mb-3">
-      <span class="hx-text-sm hx-font-semibold hx-text-gray-700 dark:hx-text-gray-300">Venue:</span>
+      <span class="paper-venue-label hx-text-sm hx-font-semibold">Venue:</span>
       {{- if $venue_url -}}
         <a href="{{ $venue_url }}" target="_blank" rel="noopener noreferrer" 
-           class="hx-ml-2 hx-text-blue-600 dark:hx-text-blue-400 hover:hx-underline hx-font-medium">
+           class="paper-venue-link hx-ml-2 hx-font-medium">
           {{ $venue }}
           <svg class="hx-w-3 hx-h-3 hx-inline hx-ml-1" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
           </svg>
         </a>
       {{- else -}}
-        <span class="hx-ml-2 hx-text-gray-900 dark:hx-text-gray-100 hx-font-medium">{{ $venue }}</span>
+        <span class="paper-venue-text hx-ml-2 hx-font-medium">{{ $venue }}</span>
       {{- end -}}
     </div>
     {{- end -}}
@@ -62,7 +62,7 @@
     <div class="hx-flex hx-flex-wrap hx-gap-3 hx-mt-4">
       {{- if $doi -}}
       <a href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener noreferrer"
-         class="hx-inline-flex hx-items-center hx-px-4 hx-py-2 hx-rounded-md hx-text-sm hx-font-medium hx-bg-white hx-text-gray-700 hx-border hx-border-gray-300 hover:hx-bg-gray-50 dark:hx-bg-gray-700 dark:hx-text-gray-200 dark:hx-border-gray-600 dark:hover:hx-bg-gray-600 hx-transition-colors">
+         class="paper-doi-button hx-inline-flex hx-items-center hx-px-4 hx-py-2 hx-rounded-md hx-text-sm hx-font-medium hx-border hx-transition-colors">
         <svg class="hx-w-4 hx-h-4 hx-mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
         </svg>
@@ -72,7 +72,7 @@
       
       {{- if $pdf_url -}}
       <a href="{{ $pdf_url }}" target="_blank" rel="noopener noreferrer"
-         class="hx-inline-flex hx-items-center hx-px-4 hx-py-2 hx-rounded-md hx-text-sm hx-font-medium hx-bg-blue-600 hx-text-white hover:hx-bg-blue-700 dark:hx-bg-blue-700 dark:hover:hx-bg-blue-600 hx-transition-colors">
+         class="paper-pdf-button hx-inline-flex hx-items-center hx-px-4 hx-py-2 hx-rounded-md hx-text-sm hx-font-medium hx-transition-colors">
         <svg class="hx-w-4 hx-h-4 hx-mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
         </svg>
