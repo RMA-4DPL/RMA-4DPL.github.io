@@ -293,10 +293,17 @@ img.img-equipment {
 
 .author-card {
   transition: all 0.2s ease;
+  background-color: #ffffff;
+  border-color: #e5e7eb;
 }
 
 .author-card:hover {
   transform: translateY(-2px);
+}
+
+.dark .author-card {
+  background-color: #1f2937;
+  border-color: #374151;
 }
 
 .keyword-tag {
@@ -306,6 +313,10 @@ img.img-equipment {
 .keyword-tag:hover {
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .keyword-tag:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .abstract-content {
