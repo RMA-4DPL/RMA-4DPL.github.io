@@ -186,7 +186,7 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
         <span class="sensor-spec-value">Terrestrial Laser Scanner</span>
       </div>
     </div>
-    <a href="https://my3d.cloud/shop/faro-focus-premium" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+    <a href="https://www.faro.com/en/Products/Hardware/Focus-Laser-Scanners" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
   </div>
 </div>
 
