@@ -1,0 +1,72 @@
+{{- $title := .Get "title" -}}
+{{- $image := .Get "image" -}}
+{{- $range := .Get "range" -}}
+{{- $bands := .Get "bands" -}}
+{{- $pixels := .Get "pixels" -}}
+{{- $type := .Get "type" -}}
+{{- $link := .Get "link" -}}
+
+<div class="sensor-item hx-flex hx-gap-6 hx-p-6 hx-mb-6 hx-rounded-lg hx-border hx-border-gray-200 dark:hx-border-neutral-800 hx-bg-white dark:hx-bg-neutral-900 hover:hx-shadow-lg hx-transition-all hx-duration-200">
+  {{- /* Left side - Image */ -}}
+  <div class="sensor-image hx-flex-shrink-0" style="width: 250px;">
+    {{- if $image -}}
+    <img
+      src="{{ $image | safeURL }}"
+      alt="{{ $title }}"
+      class="hx-w-full hx-h-auto hx-rounded-md hx-object-cover"
+      style="max-height: 200px; object-fit: contain;"
+    />
+    {{- end -}}
+  </div>
+  
+  {{- /* Right side - Details */ -}}
+  <div class="sensor-details hx-flex-1">
+    <h4 class="hx-text-xl hx-font-semibold hx-mb-3 hx-text-gray-900 dark:hx-text-neutral-100">
+      {{- if $link -}}
+      <a href="{{ $link }}" class="hover:hx-text-blue-600 dark:hover:hx-text-blue-400" target="_blank" rel="noopener">
+        {{ $title }}
+      </a>
+      {{- else -}}
+      {{ $title }}
+      {{- end -}}
+    </h4>
+    
+    <dl class="hx-space-y-2">
+      {{- with $range -}}
+      <div class="hx-flex hx-items-baseline">
+        <dt class="hx-font-medium hx-text-gray-700 dark:hx-text-neutral-300">Range:&nbsp;</dt>
+        <dd class="hx-text-gray-600 dark:hx-text-neutral-400">{{ . }}</dd>
+      </div>
+      {{- end -}}
+      
+      {{- with $bands -}}
+      <div class="hx-flex hx-items-baseline">
+        <dt class="hx-font-medium hx-text-gray-700 dark:hx-text-neutral-300">Bands:&nbsp;</dt>
+        <dd class="hx-text-gray-600 dark:hx-text-neutral-400">{{ . }}</dd>
+      </div>
+      {{- end -}}
+      
+      {{- with $pixels -}}
+      <div class="hx-flex hx-items-baseline">
+        <dt class="hx-font-medium hx-text-gray-700 dark:hx-text-neutral-300">Spatial Pixels:&nbsp;</dt>
+        <dd class="hx-text-gray-600 dark:hx-text-neutral-400">{{ . }}</dd>
+      </div>
+      {{- end -}}
+      
+      {{- with $type -}}
+      <div class="hx-flex hx-items-baseline">
+        <dt class="hx-font-medium hx-text-gray-700 dark:hx-text-neutral-300">Type:&nbsp;</dt>
+        <dd class="hx-text-gray-600 dark:hx-text-neutral-400">{{ . }}</dd>
+      </div>
+      {{- end -}}
+    </dl>
+    
+    {{- if $link -}}
+    <div class="hx-mt-3">
+      <a href="{{ $link }}" class="hx-text-sm hx-text-blue-600 dark:hx-text-blue-400 hover:hx-underline" target="_blank" rel="noopener">
+        Learn more →
+      </a>
+    </div>
+    {{- end -}}
+  </div>
+</div>
