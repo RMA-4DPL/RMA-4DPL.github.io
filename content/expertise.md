@@ -19,7 +19,7 @@ The 4D perception lab has an excellent track record of sharing its expertise and
 The 4D Perception Lab has hyperspectral capability for the full visible to longwave infrared range.
 
 <div class="hx-flex hx-justify-center hx-p-4 hx-rounded-lg hx-bg-gray-100 dark:hx-bg-neutral-800 hx-mt-4 hx-mb-4">
-  <img src="/images/equipment/sensors_ir_range.jpg" alt="All Sensors" class="hx-max-w-full hx-h-auto">
+  <img src="/images/equipment/sensors_ir_range_nosensors.jpg" alt="All Sensors" class="hx-max-w-full hx-h-auto">
 </div>
 
 
@@ -111,18 +111,14 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
 
 <div class="sensor-item">
   <div class="sensor-image">
-    <img src="/images/equipment/coming-soon.svg" alt="LWIR Camera (embargo)">
+    <img src="/images/equipment/coming-soon.svg" alt="LWIR Camera (coming soon)">
   </div>
   <div class="sensor-details">
-    <h4>LWIR Camera (embargo)</h4>
+    <h4>LWIR Camera (coming soon)</h4>
     <div class="sensor-specs">
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Range:&nbsp;</span>
         <span class="sensor-spec-value">LWIR</span>
-      </div>
-      <div class="sensor-spec-item">
-        <span class="sensor-spec-label">Type:&nbsp;</span>
-        <span class="sensor-spec-value">Snapshot</span>
       </div>
     </div>
   </div>
