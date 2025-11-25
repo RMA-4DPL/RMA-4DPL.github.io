@@ -37,4 +37,6 @@ On the battlefield, injured soldiers can face significant delays in medical trea
 TaMaCare aims to revolutionise battlefield casualty care by creating a real-time digital twin of the frontline. The proposed digital twin aims to provide medics with a clear view of the battlefield, encompassing the location of injured soldiers, their vital signs, and any structures or potential dangers present in the vicinity.
 
 ## Methodology
-3D Mapping: Creating a 3D representation of the battlefield. Casualty and Threat Detection: Automatically identifying and locating injured soldiers and potential threats (explosive devices) with visible and infrared cameras. Real-Time Localization and Health Monitoring: Establishing a network of Ultra-Wideband (UWB) anchors and tags to track the location of casualties in real-time.
+- **3D Mapping:** Creating a 3D representation of the battlefield. 
+- **Casualty and Threat Detection:** Automatically identifying and locating injured soldiers and potential threats (explosive devices) with visible and infrared cameras. 
+- **Real-Time Localization and Health Monitoring:** Establishing a network of Ultra-Wideband (UWB) anchors and tags to track the location of casualties in real-time.
