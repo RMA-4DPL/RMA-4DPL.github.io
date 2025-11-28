@@ -120,6 +120,23 @@
     linkedin: "https://www.linkedin.com/in/vitors-xai/"
     orcid: "0000-0002-6978-6211"
 
+- id: "anis_dhifi"
+  name: "Anis Dhifi"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/ad-resized.png"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/anis-dhifi-b9b92a177/"
+    orcid: ""
+
+### 4DPL/MECHANICS
+
 - id: "mario_malizia"
   name: "Mario Malizia"
   title: ""
@@ -146,8 +163,23 @@
   interests: ""
   social:
     researchportal: "https://researchportal.rma.ac.be/en/persons/alessandra-miuccio-2"
-    scholar: "https://scholar.google.be/citations?user=3fDazuEAAAAJ"
+    scholar: ""
     linkedin: "https://www.linkedin.com/in/alessandra-miuccio-159b74239/"
+    orcid: ""
+
+- id: "marnix_enting"
+  name: "Marnix Enting"
+  title: ""
+  4DPL: true
+  role: "PhD Researcher"
+  image: "/images/people/me-resized.jpeg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mechanics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/en/persons/marnix-enting/"
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/marnix-enting/"
     orcid: ""
 
 - id: "ethan_decleyn"
@@ -165,20 +197,7 @@
     linkedin: "https://www.linkedin.com/in/ethan-decleyn-84544a249/"
     orcid: ""
 
-- id: "anis_dhifi"
-  name: "Anis Dhifi"
-  title: ""
-  4DPL: true
-  role: "PhD Researcher"
-  image: "/images/people/ad-resized.png"
-  affiliation: "Royal Military Academy"
-  department: "Department of Mathematics"
-  interests: ""
-  social:
-    researchportal: ""
-    scholar: ""
-    linkedin: "https://www.linkedin.com/in/anis-dhifi-b9b92a177/"
-    orcid: ""
+### 4DPL/PM
 
 - id: "emilie_ne"
   name: "Émilie Né"

@@ -3,8 +3,8 @@ title: Advanced Resolution and Intelligence for Explosive Sensing
 linkTitle: ARIES
 type: docs
 prev: research/projects/
-project_image: "/images/aries-illustration.png"
-project_start: "March 1, 2026"
+project_image: "/images/aries.png"
+project_start: "March 2, 2026"
 project_end: "February 28, 2029"
 project_status: 'active'
 project_reference: N/A
@@ -17,7 +17,7 @@ project_rma_researchers: "To be hired"
 project_partners_rma: N/A
 project_partners_BE_DEF: N/A
 project_partners_other: "[imec vzw](https://www.imec.be/), [FLIR Belgium](https://www.flir.com), [UGent](https://ugent.be)"
-project_quad_chart: "[Quad Chart](</downloads/Quad_ARIES_4D Perception.pdf>)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_ARIES_4DPL.pdf>)" 
 keywords:
 - Hyperspectral Imaging
 - 3D Mapping

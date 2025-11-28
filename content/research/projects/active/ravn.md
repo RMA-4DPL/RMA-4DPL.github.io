@@ -17,7 +17,7 @@ project_rma_researchers: "To be hired"
 project_partners_rma: N/A
 project_partners_BE_DEF: N/A
 project_partners_other: "[Sol.One](https://www.sol.one), [Intersoft](https://intersoft-electronics.com/), [Agilica] (https://www.agilica.be/)"
-project_quad_chart: "[Quad Chart](</downloads/Quad_RAVN_4DPL.pptx.pdf>)"
+project_quad_chart: "[Quad Chart](</downloads/Quad_RAVN_4DPL.pdf>)"
 keywords:
 - Drone detection
 - Simultaneous Localization and Mapping (SLAM)
