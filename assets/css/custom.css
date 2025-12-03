@@ -5,6 +5,26 @@ body, .content {
 
 /* CSS people page */
 
+/* Job opening header image */
+.job-image {
+  display: block;
+  max-width: 560px;
+  width: 100%;
+  height: auto;
+  /* Prefer no cropping; contain within a reasonable height */
+  max-height: 360px;
+  object-fit: contain;
+  margin: 0.5rem auto 1.5rem auto;
+  border-radius: 6px;
+}
+
+/* Allow a bit more height on smaller screens to avoid awkward letterboxing */
+@media (max-width: 768px) {
+  .job-image {
+    max-height: 420px;
+  }
+}
+
 
 .img-people-container {
   width: 100%;

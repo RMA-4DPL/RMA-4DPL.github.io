@@ -1,11 +1,13 @@
 ---
 news_title: "Job Opening: Researcher in Machine Learning for Hyperspectral Imaging"
-news_summary: "The 4D Perception Lab is expanding! We are currently seeking a **Research in Machine Learning Researcher for Hyperspectral Imaging** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
+news_summary: "The 4D Perception Lab is expanding! We are currently seeking a **Researcher in Machine Learning for Hyperspectral Imaging** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
 title: "New 'Researcher in Machine Learning for Hyperspectral Imaging' Position Available"
 date: 2025-12-01
 summary: "The 4D Perception Lab is expanding! We are currently seeking a **Machine Learning Researcher** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
 draft: false
 ---
+
+<img src="/images/aries.png" alt="ARIES project visual" class="job-image" />
 
 ## Overview
 
