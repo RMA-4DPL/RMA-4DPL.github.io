@@ -34,4 +34,4 @@ Degree(s) required: Master Degree in Engineering Science, Applied Sciences, Civi
 This position is open for junior profiles (ideally 0-3 years of experience) in computer vision and/or robotics.
 
 
-For more information and to apply, please visit our [Official job posting](https://www.rma.ac.be/nl/vacatures).
+For more information and to apply, please visit our [Official job posting](https://www.rma.ac.be/api/files/220251126_Job_offer_RAVN.pdf).
