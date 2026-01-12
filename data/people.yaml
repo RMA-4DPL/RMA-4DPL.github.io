@@ -197,7 +197,22 @@
     linkedin: "https://www.linkedin.com/in/ethan-decleyn-84544a249/"
     orcid: ""
 
-### 4DPL/PM
+### 4DPL/ADMIN
+
+- id: "liene_drijkoningen"
+  name: "Liene Drijkoningen"
+  title: ""
+  4DPL: true
+  role: "Executive Assistant"
+  image: "/images/people/ld-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/lienedrijkoningen"
+    orcid: ""
 
 - id: "emilie_ne"
   name: "Émilie Né"
