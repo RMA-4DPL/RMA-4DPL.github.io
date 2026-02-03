@@ -6,7 +6,7 @@ prev: research/projects/
 project_image: "/images/techbiot_fireman.png"
 project_start: "December 1, 2022"
 project_end: "November 30, 2025"
-project_status: 'active'
+project_status: 'completed'
 project_reference: 101103176
 project_funding: European Commission (EC), European Defense Fund (EDF)
 project_rma_involvement: Coordinator

@@ -3,7 +3,7 @@ title: TODO
 linkTitle: GEPATAR
 type: docs
 prev: research/projects/
-project_image: "/images/logos/rma.png"
+project_image: "/images/gepatar.jpg"
 project_start: "TODO"
 project_end: "TODO"
 project_status: 'completed'

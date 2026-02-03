@@ -1,9 +1,9 @@
 ---
 title: Simulation Engine for Military RPAS Operations with Integrated Human Factors and Standardized Test Methodologies
-linkTitle: HFM 19/05
+linkTitle: Alphonse
 type: docs
 prev: research/projects/
-project_image: "/images/logos/rma.png"
+project_image: "/images/alphonse.jpg"
 project_start: "March 1, 2019"
 project_end: "December 31, 2022"
 project_status: 'completed'
