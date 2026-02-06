@@ -9,6 +9,10 @@ draft: false
 
 <img src="/images/ravn.png" alt="RAVN project visual" class="job-image" />
 
+---
+**⚠️ Note: This position has been filled.**
+---
+
 ## Overview
 
 In the framework of the study RAVN (Rapid Aerial Vehicle Neutralization), we are looking for a full-time researcher in computer vision and/or robotics with a Master degree in Engineering Science, Applied Sciences, Civil Engineering, Physics, Computer Science or Mathematics.

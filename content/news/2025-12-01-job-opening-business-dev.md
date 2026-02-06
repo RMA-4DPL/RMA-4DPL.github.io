@@ -9,6 +9,11 @@ draft: false
 
 <img src="/images/business_developer.jpg" alt="Business developer collaborating in modern office" class="job-image" />
 
+---
+**⚠️ Note: This position has been filled.**
+---
+
+
 ## Overview
 
 In the framework of multiple studies, we are looking for a full-time project manager/business developer. Degrees axed towards management or commerce are preferred, but anyone with a master’s degree in Science,Engineering Science, Applied Sciences, Civil Engineering, Physics, Computer Science or Mathematics is encouraged to apply.

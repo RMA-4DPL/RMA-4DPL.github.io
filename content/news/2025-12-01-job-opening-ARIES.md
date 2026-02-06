@@ -9,6 +9,11 @@ draft: false
 
 <img src="/images/aries.png" alt="ARIES project visual" class="job-image" />
 
+---
+**⚠️ Note: This position has been filled.**
+---
+
+
 ## Overview
 
 In the framework of the study ARIES (Advanced Resolution and Intelligence for Explosive Sensing), we are looking for a full-time researcher with a Master degree in Engineering Science, Applied Sciences, Civil Engineering, Physics, Computer Science, Mathematics or related discipline.
