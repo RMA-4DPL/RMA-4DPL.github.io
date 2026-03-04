@@ -135,6 +135,21 @@
     linkedin: "https://www.linkedin.com/in/anis-dhifi-b9b92a177/"
     orcid: ""
 
+- id: "francois_chandelle"
+  name: "François Chandelle"
+  title: ""
+  4DPL: true
+  role: "Data Scientist"
+  image: "/images/people/fc-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/francois-chandelle/"
+    orcid: ""
+
 ### 4DPL/MECHANICS
 
 - id: "mario_malizia"
