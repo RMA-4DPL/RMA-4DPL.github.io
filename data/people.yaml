@@ -90,19 +90,19 @@
     linkedin: "https://www.linkedin.com/in/darcouchard"
     orcid: "0009-0007-5500-1050"
 
-- id: "mathias_boulanger"
-  name: "Mathias Boulanger"
+- id: "benjamin_charles"
+  name: "Benjamin Charles"
   title: ""
   4DPL: true
-  role: "PhD Researcher"
-  image: "/images/people/mb-resized.jpg"
+  role: "Researcher"
+  image: "/images/people/bc-resized.jpg"
   affiliation: "Royal Military Academy"
   department: "Department of Mathematics"
   interests: ""
   social:
-    researchportal: "https://researchportal.rma.ac.be/en/persons/mathias-boulanger/"
+    researchportal: "https://researchportal.rma.ac.be/en/persons/benjamin-charles/"
     scholar: ""
-    linkedin: "https://www.linkedin.com/in/mathias-boulanger-457373378/"
+    linkedin: "https://www.linkedin.com/in/benjamin-charles-621585283/"
     orcid: ""
 
 - id: "xenia_ivashkovych"
