@@ -150,6 +150,21 @@
     linkedin: "https://www.linkedin.com/in/francois-chandelle/"
     orcid: ""
 
+- id: "fleur_linsen"
+  name: "Fleur Linsen"
+  title: ""
+  4DPL: true
+  role: "Researcher"
+  image: "/images/people/fl-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: ""
+    orcid: ""
+
 ### 4DPL/MECHANICS
 
 - id: "mario_malizia"
