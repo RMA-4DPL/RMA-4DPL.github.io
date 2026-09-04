@@ -2,6 +2,16 @@ body, .content {
     font-family: "Inter", sans-serif;
   }
 
+/* Optically align the navbar title with the lettering in the asymmetric logo. */
+.navbar-brand {
+  align-items: flex-end;
+}
+
+.navbar-brand-title {
+  line-height: 1.1;
+  margin-bottom: 0.125rem;
+}
+
 
 /* CSS people page */
 

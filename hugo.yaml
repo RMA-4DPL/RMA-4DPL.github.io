@@ -72,9 +72,11 @@ params:
       # path: images/logo light 128x128.png 
       # dark: images/logo dark 128x128.png
       path: favicon.svg
-      dark: favicon.svg
+      dark: favicon-dark.svg
       link: /
-      width: 40
+      # The new logo is roughly 3:1, so give it a wide navbar footprint
+      # while retaining the existing 40 px navbar height.
+      width: 122
       height: 40
       params:
   page:
