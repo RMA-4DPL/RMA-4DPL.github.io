@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: 4D Perception Lab Contact Information.
-images: ["images/logo_preview.png"]
+images: ["logo-social-preview.png"]
 type: contact
 weight: 5
 ---

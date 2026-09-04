@@ -61,6 +61,8 @@ params:
 
 
 params:
+  images:
+    - logo-social-preview.png
   theme:
     # light | dark | system
     default: light

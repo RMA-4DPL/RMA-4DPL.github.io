@@ -1,7 +1,7 @@
 ---
 title: News
 description: Latest news from the 4D Perception Lab.
-images: ["images/logo_preview.png"]
+images: ["logo-social-preview.png"]
 type: news
 weight: 3
 ---
