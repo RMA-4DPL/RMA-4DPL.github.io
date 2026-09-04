@@ -224,15 +224,11 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
     <div class="sensor-specs">
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Range:&nbsp;</span>
-        <span class="sensor-spec-value">VNIR-LWIR (800 nm – 15,000 nm)</span>
+        <span class="sensor-spec-value">VNIR-LWIR (880 nm – 12,200 nm)</span>
       </div>
-      <div class="sensor-spec-item sensor-spec-item--multiline">
-        <span class="sensor-spec-label">Typical NESR:</span>
-        <span class="sensor-spec-value sensor-spec-value--rows">
-          <span>2.5 @ 1300 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
-          <span>0.25 @ 2000 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
-          <span>0.03 @ 6300 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
-        </span>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Maximum spectral resolution:&nbsp;</span>
+        <span class="sensor-spec-value">1 cm⁻¹</span>
       </div>
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
