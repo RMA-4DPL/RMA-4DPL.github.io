@@ -173,6 +173,26 @@ img.img-equipment {
 .sensor-spec-value {
   color: #4b5563;
 }
+.sensor-spec-item--multiline {
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.sensor-spec-item--multiline .sensor-spec-label {
+  flex-shrink: 0;
+}
+.sensor-spec-value--rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  line-height: 1.45;
+}
+.sensor-spec-value--rows > span {
+  display: block;
+}
+.sensor-spec-value--rows sup {
+  font-size: 0.7em;
+  line-height: 0;
+}
 .sensor-link {
   margin-top: 0.75rem;
   font-size: 0.875rem;

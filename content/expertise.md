@@ -25,31 +25,32 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
 
 #### Sensor Overview
 
+
 <div class="sensor-item">
   <div class="sensor-image">
-    <img src="/images/equipment/hyspex-mjolnir-vs-620-hero.jpg" alt="Hyspex Mjolnir VS-620">
+    <img src="/images/equipment/hyperspectral-camera-cubert-ultris-x20-plus.webp" alt="Cubert Ultris X20p">
   </div>
   <div class="sensor-details">
-    <h4>Hyspex Mjolnir VS-620</h4>
+    <h4>Cubert Ultris X20p (Coming soon)</h4>
     <div class="sensor-specs">
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Range:&nbsp;</span>
-        <span class="sensor-spec-value">VISWIR (400 – 2500 nm)</span>
+        <span class="sensor-spec-value">UV-VNIR (350 - 1000 nm)</span>
       </div>
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Bands:&nbsp;</span>
-        <span class="sensor-spec-value">490</span>
+        <span class="sensor-spec-value">164</span>
       </div>
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
-        <span class="sensor-spec-value">620</span>
+        <span class="sensor-spec-value">410 x 410</span>
       </div>
       <div class="sensor-spec-item">
         <span class="sensor-spec-label">Type:&nbsp;</span>
-        <span class="sensor-spec-value">Pushbroom</span>
+        <span class="sensor-spec-value">Snapshot</span>
       </div>
     </div>
-    <a href="https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-vs-620" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+    <a href="https://cubert-hyperspectral.com/en/ultris-x20-plus/" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
   </div>
 </div>
 
@@ -83,6 +84,34 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
 
 <div class="sensor-item">
   <div class="sensor-image">
+    <img src="/images/equipment/hyspex-mjolnir-vs-620-hero.jpg" alt="Hyspex Mjolnir VS-620">
+  </div>
+  <div class="sensor-details">
+    <h4>Hyspex Mjolnir VS-620</h4>
+    <div class="sensor-specs">
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Range:&nbsp;</span>
+        <span class="sensor-spec-value">VISWIR (400 – 2500 nm)</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Bands:&nbsp;</span>
+        <span class="sensor-spec-value">490</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
+        <span class="sensor-spec-value">620</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Type:&nbsp;</span>
+        <span class="sensor-spec-value">Pushbroom</span>
+      </div>
+    </div>
+    <a href="https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-vs-620" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+  </div>
+</div>
+
+<div class="sensor-item">
+  <div class="sensor-image">
     <img src="/images/equipment/bodkin-mwir-60-550x550.jpg" alt="Bodkin MWIR-60">
   </div>
   <div class="sensor-details">
@@ -111,6 +140,65 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
 
 <div class="sensor-item">
   <div class="sensor-image">
+    <img src="/images/equipment/specim-fx50.webp" alt="Specim FX50">
+  </div>
+  <div class="sensor-details">
+    <h4>Specim FX50</h4>
+    <div class="sensor-specs">
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Range:&nbsp;</span>
+        <span class="sensor-spec-value">MWIR (2700 - 5300 nm)</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Bands:&nbsp;</span>
+        <span class="sensor-spec-value">154</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
+        <span class="sensor-spec-value">640</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Type:&nbsp;</span>
+        <span class="sensor-spec-value">Pushbroom</span>
+      </div>
+    </div>
+    <a href="https://www.specim.com/products/specim-fx50/" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+  </div>
+</div>
+
+<div class="sensor-item">
+  <div class="sensor-image">
+    <img src="/images/equipment/hypercam-mini.jpg" alt="Hypercam Mini">
+  </div>
+  <div class="sensor-details">
+    <h4>Hyper-Cam Mini (Coming soon)</h4>
+    <div class="sensor-specs">
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Range:&nbsp;</span>
+        <span class="sensor-spec-value">LWIR (7500 - 12,400 nm)</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Maximum spectral resolution:&nbsp;</span>
+        <span class="sensor-spec-value">0.5 cm⁻¹</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
+        <span class="sensor-spec-value">320 × 256 </span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Type:&nbsp;</span>
+        <span class="sensor-spec-value">Fourier-transform infrared (FTIR) spectrometer</span>
+      </div>
+    </div>
+    <a href="https://www.exosens.com/products/hyper-cam-mini" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+  </div>
+</div>
+
+
+
+
+<!-- <div class="sensor-item">
+  <div class="sensor-image">
     <img src="/images/equipment/coming-soon.svg" alt="LWIR Camera (coming soon)">
   </div>
   <div class="sensor-details">
@@ -122,10 +210,42 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 ### Spectroradiometers
+
+<div class="sensor-item">
+  <div class="sensor-image">
+    <img src="/images/equipment/VSR.jpg" alt="Versatile Spectroradiometer (VSR-3C)">
+  </div>
+  <div class="sensor-details">
+    <h4>Versatile Spectroradiometer (VSR-3C)</h4>
+    <div class="sensor-specs">
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Range:&nbsp;</span>
+        <span class="sensor-spec-value">VNIR-LWIR (800 nm – 15,000 nm)</span>
+      </div>
+      <div class="sensor-spec-item sensor-spec-item--multiline">
+        <span class="sensor-spec-label">Typical NESR:</span>
+        <span class="sensor-spec-value sensor-spec-value--rows">
+          <span>2.5 @ 1300 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
+          <span>0.25 @ 2000 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
+          <span>0.03 @ 6300 cm<sup>−1</sup> nW/sr/cm<sup>2</sup>/cm<sup>−1</sup></span>
+        </span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Spatial Pixels:&nbsp;</span>
+        <span class="sensor-spec-value">1</span>
+      </div>
+      <div class="sensor-spec-item">
+        <span class="sensor-spec-label">Type:&nbsp;</span>
+        <span class="sensor-spec-value">Whiskbroom</span>
+      </div>
+    </div>
+    <a href="https://www.malvernpanalytical.com/en/products/product-range/asd-range/fieldspec-range/fieldspec4-hi-res-high-resolution-spectroradiometer" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+  </div>
+</div>
 
 <div class="sensor-item">
   <div class="sensor-image">
