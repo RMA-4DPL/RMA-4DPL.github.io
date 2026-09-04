@@ -10,7 +10,7 @@ project_status: 'active'
 project_reference: N/A
 project_funding: Defence-related Research Action (DEFRA), 2024
 project_rma_involvement: Coordinator
-project_coordinator: "[Charles Hamesse](https://researchportal.rma.ac.be/en/persons/charles-hamesse)"
+project_coordinator: "[Hannes De Meulemeester](https://researchportal.rma.ac.be/en/persons/hannes-de-meulemeester)"
 project_coordinator_affiliation: "[Royal Military Academy, Department of Mathematics (MWMW)](https://researchportal.rma.ac.be/en/organisations/mathematics)"
 project_copromotor: N/A
 project_rma_researchers: "[Darius Couchard](https://researchportal.rma.ac.be/en/persons/darius-couchard)"
