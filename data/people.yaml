@@ -195,6 +195,21 @@
     linkedin: "https://www.linkedin.com/in/francois-chandelle/"
     orcid: ""
 
+- id: "chaimae el aisati"
+  name: "Chaïmae El Aisati"
+  title: ""
+  4DPL: true
+  role: "Postdoctoral Researcher"
+  image: "/images/people/cea-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: "https://scholar.google.com/citations?user=SXsiJUwAAAAJ&hl=en"
+    linkedin: ""
+    orcid: ""
+
 
 ### 4DPL/MECHANICS
 
