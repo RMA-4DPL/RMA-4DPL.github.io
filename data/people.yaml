@@ -75,9 +75,58 @@
     linkedin: "https://www.linkedin.com/in/oscar-olarte"
     orcid: "0000-0002-7712-3530"
 
+- id: "chaimae el aisati"
+  name: "Chaïmae El Aisati"
+  title: "Dr."
+  4DPL: true
+  role: "Postdoctoral Researcher"
+  image: "/images/people/cea-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: "https://scholar.google.com/citations?user=SXsiJUwAAAAJ&hl=en"
+    linkedin: ""
+    orcid: ""
+
+### 4DPL/ADMIN
+
+- id: "liene_drijkoningen"
+  name: "Liene Drijkoningen"
+  title: "ir."
+  4DPL: true
+  role: "Executive Assistant"
+  image: "/images/people/ld-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: ""
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/lienedrijkoningen"
+    orcid: ""
+
+- id: "emilie_ne"
+  name: "Émilie Né"
+  title: ""
+  4DPL: true
+  role: "Project Manager"
+  image: "/images/people/en-resized.jpg"
+  affiliation: "Royal Military Academy"
+  department: "Department of Mathematics"
+  interests: ""
+  social:
+    researchportal: "https://researchportal.rma.ac.be/nl/persons/%C3%A9milie-n%C3%A9"
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/emilie-n%C3%A9-10983a47"
+    orcid: ""
+
+### 4DPL
+
 - id: "maarten_meire"
   name: "Maarten Meire"
-  title: ""
+  title: "Dr."
   4DPL: true
   role: "Postdoctoral Researcher"
   image: "/images/people/mamei-resized.jpg"
@@ -195,22 +244,6 @@
     linkedin: "https://www.linkedin.com/in/francois-chandelle/"
     orcid: ""
 
-- id: "chaimae el aisati"
-  name: "Chaïmae El Aisati"
-  title: ""
-  4DPL: true
-  role: "Postdoctoral Researcher"
-  image: "/images/people/cea-resized.jpg"
-  affiliation: "Royal Military Academy"
-  department: "Department of Mathematics"
-  interests: ""
-  social:
-    researchportal: ""
-    scholar: "https://scholar.google.com/citations?user=SXsiJUwAAAAJ&hl=en"
-    linkedin: ""
-    orcid: ""
-
-
 ### 4DPL/MECHANICS
 
 - id: "mario_malizia"
@@ -271,38 +304,6 @@
     researchportal: ""
     scholar: ""
     linkedin: "https://www.linkedin.com/in/ethan-decleyn-84544a249/"
-    orcid: ""
-
-### 4DPL/ADMIN
-
-- id: "liene_drijkoningen"
-  name: "Liene Drijkoningen"
-  title: ""
-  4DPL: true
-  role: "Executive Assistant"
-  image: "/images/people/ld-resized.jpg"
-  affiliation: "Royal Military Academy"
-  department: "Department of Mathematics"
-  interests: ""
-  social:
-    researchportal: ""
-    scholar: ""
-    linkedin: "https://www.linkedin.com/in/lienedrijkoningen"
-    orcid: ""
-
-- id: "emilie_ne"
-  name: "Émilie Né"
-  title: ""
-  4DPL: true
-  role: "Project Manager"
-  image: "/images/people/en-resized.jpg"
-  affiliation: "Royal Military Academy"
-  department: "Department of Mathematics"
-  interests: ""
-  social:
-    researchportal: "https://researchportal.rma.ac.be/nl/persons/%C3%A9milie-n%C3%A9"
-    scholar: ""
-    linkedin: "https://www.linkedin.com/in/emilie-n%C3%A9-10983a47"
     orcid: ""
 
 ### RMA
