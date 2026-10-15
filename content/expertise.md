@@ -239,7 +239,7 @@ The 4D Perception Lab has hyperspectral capability for the full visible to longw
         <span class="sensor-spec-value">Whiskbroom</span>
       </div>
     </div>
-    <a href="https://www.malvernpanalytical.com/en/products/product-range/asd-range/fieldspec-range/fieldspec4-hi-res-high-resolution-spectroradiometer" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
+    <a href="https://www.exosens.com/products/versatile-spectro-radiometer-vsr" class="sensor-link" target="_blank" rel="noopener">Learn more →</a>
   </div>
 </div>
 
