@@ -4,6 +4,7 @@ news_summary: "The DFR Project 'Threat Warning Sensor' has been approved."
 title: "Threat Warning Sensor"
 date: 2025-04-01
 summary: "The DFR Threat Warning Sensor project has been accepted and will start soon, enhancing our capabilities in threat detection systems."
+tags: [TWS]
 draft: false
 ---
 

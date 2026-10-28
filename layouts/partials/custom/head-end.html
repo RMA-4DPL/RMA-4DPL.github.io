@@ -1,0 +1,18 @@
+{{- if eq .Section "news" -}}
+  {{- $newsStyles := resources.Get "css/news.css" -}}
+  {{- if hugo.IsProduction -}}
+    {{- $newsStyles = $newsStyles | minify | fingerprint -}}
+    <link href="{{ $newsStyles.RelPermalink }}" rel="stylesheet" integrity="{{ $newsStyles.Data.Integrity }}" />
+  {{- else -}}
+    <link href="{{ $newsStyles.RelPermalink }}" rel="stylesheet" />
+  {{- end -}}
+  {{- if .IsPage -}}
+    {{- $printStyles := resources.Get "css/news-print.css" -}}
+    {{- if hugo.IsProduction -}}
+      {{- $printStyles = $printStyles | minify | fingerprint -}}
+      <link href="{{ $printStyles.RelPermalink }}" rel="stylesheet" media="print" integrity="{{ $printStyles.Data.Integrity }}" />
+    {{- else -}}
+      <link href="{{ $printStyles.RelPermalink }}" rel="stylesheet" media="print" />
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

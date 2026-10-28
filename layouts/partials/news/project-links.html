@@ -1,0 +1,17 @@
+{{- $projects := partialCached "projects/by-tag.html" .Site -}}
+{{- $related := slice -}}
+{{- range .GetTerms "tags" -}}
+  {{- with index $projects (.Data.Term | urlize) -}}
+    {{- $related = $related | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $related -}}
+<nav class="news-project-links" aria-label="Related research projects">
+  <span class="news-project-links__label">Related projects</span>
+  <ul>
+    {{- range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{- end }}
+  </ul>
+</nav>
+{{- end -}}

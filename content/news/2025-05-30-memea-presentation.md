@@ -4,6 +4,7 @@ news_summary: "Our paper 'Synthetic generation of GC-IMS records based on Autoen
 title: "Synthetic generation of GC-IMS records based on Autoencoders"
 date: 2025-05-30
 summary: "This study introduces a novel method for generating synthetic 2D GC-IMS spectra using a deep learning framework based on Autoencoders."
+tags: [TeChBioT]
 draft: false
 image: "images/news/syn-gen-gcims.png"
 paper_type: "Conference Paper"

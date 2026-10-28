@@ -1,0 +1,8 @@
+{{/* Match Hugo tag terms to project acronyms, independently of active/completed status. */}}
+{{- $projects := dict -}}
+{{- range where .RegularPages "Section" "research" -}}
+  {{- if hasPrefix .File.Path "research/projects/" -}}
+    {{- $projects = merge $projects (dict (.LinkTitle | urlize) .) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $projects -}}

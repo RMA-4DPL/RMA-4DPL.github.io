@@ -1,0 +1,302 @@
+/* Loaded with media="print" on individual news articles only. */
+@page {
+  size: A4;
+  margin: 16mm;
+}
+
+html,
+body {
+  color-scheme: light !important;
+  background: #fff !important;
+  color: #111 !important;
+  font-size: 11pt;
+}
+
+/* Remove the website frame and controls, keeping related project references. */
+.nav-container,
+.sidebar-container,
+.mobile-menu-overlay,
+.hextra-footer,
+.news-screen-only,
+.news-content button,
+.news-content .citation-tabs,
+.news-content .paper-citation > p,
+.news-content .author-links {
+  display: none !important;
+}
+
+.news-article-layout,
+.news-article,
+.news-article-main {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Override dark mode and coloured screen cards without relying on background printing. */
+.news-article,
+.news-article * {
+  background: transparent !important;
+  color: #111 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border-color: #aaa !important;
+}
+
+.news-print-only {
+  display: block;
+}
+
+.news-print-brand {
+  margin: 0 0 5mm;
+  font-size: 9pt;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.news-article-header {
+  margin: 0 0 4mm;
+  padding: 0 0 3mm;
+  break-inside: avoid;
+}
+
+.news-article-header h1 {
+  margin: 0 0 3mm;
+  font-size: 23pt;
+  line-height: 1.15;
+}
+
+.news-article-header time {
+  font-size: 9pt;
+}
+
+.news-article-header svg,
+.news-content .paper-header svg,
+.news-content .paper-authors svg,
+.news-content .paper-abstract h2 svg,
+.news-content .paper-citation h2 svg {
+  display: none;
+}
+
+.news-content {
+  font-size: 11pt;
+  line-height: 1.45;
+}
+
+.news-content h2,
+.news-content h3,
+.news-content h4 {
+  margin: 5mm 0 2mm;
+  line-height: 1.25;
+  break-after: avoid;
+}
+
+.news-content h2 {
+  font-size: 14pt;
+}
+
+.news-content h3,
+.news-content h4 {
+  font-size: 12pt;
+}
+
+.news-content p,
+.news-content ul,
+.news-content ol {
+  margin-bottom: 3mm;
+  orphans: 3;
+  widows: 3;
+}
+
+.news-content li {
+  margin-bottom: 1mm;
+}
+
+.news-content .news-lead {
+  margin-bottom: 3mm;
+  font-size: 12pt;
+  line-height: 1.4;
+}
+
+.news-content .news-eyebrow {
+  margin-bottom: 2mm;
+  font-size: 8pt;
+}
+
+.news-content a {
+  text-decoration: underline;
+}
+
+.news-project-links {
+  gap: 1mm 3mm;
+  margin-bottom: 4mm;
+  break-inside: avoid;
+}
+
+.news-project-links ul {
+  gap: 1mm 3mm;
+}
+
+.news-project-links__label,
+.news-project-links a {
+  font-size: 8pt;
+}
+
+.news-project-links a {
+  padding: 0;
+  border: 0;
+}
+
+/* Preserve image proportions and keep each figure with its caption. */
+.news-content img {
+  display: block;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 75mm !important;
+  margin: 0 auto !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+  break-inside: avoid;
+}
+
+.news-content figure {
+  margin: 0 0 3mm;
+  break-inside: avoid;
+}
+
+.news-content .news-hero img {
+  max-height: 65mm !important;
+}
+
+.news-content figcaption {
+  padding: 1.5mm 0 0;
+  font-size: 8pt;
+  line-height: 1.3;
+}
+
+.news-content .news-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4mm;
+  margin: 3mm 0 5mm;
+}
+
+.news-content .news-gallery img {
+  max-height: 52mm !important;
+}
+
+.news-content .news-facts {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3mm;
+  margin: 3mm 0 4mm;
+  padding: 3mm 0;
+  break-inside: avoid;
+}
+
+.news-content .news-facts dt {
+  font-size: 7pt;
+}
+
+.news-content .news-facts dd {
+  font-size: 9pt;
+}
+
+.news-content .news-link-grid {
+  grid-template-columns: repeat(auto-fit, minmax(28mm, 1fr));
+  gap: 2mm;
+  margin: 3mm 0 5mm;
+}
+
+.news-content .news-link-grid li {
+  break-inside: avoid;
+}
+
+.news-content .news-link-grid a {
+  gap: 1mm;
+  padding: 2mm;
+  border-radius: 0;
+  font-size: 9pt;
+}
+
+.news-content .news-link-grid span {
+  font-size: 8pt;
+}
+
+.news-content .news-callout {
+  margin-top: 4mm;
+  padding: 3mm;
+  border-radius: 0;
+}
+
+/* Research-paper articles use the same print layout with compact metadata. */
+.news-content .paper-header,
+.news-content .paper-header-image {
+  overflow: visible;
+}
+
+.news-content .paper-header-meta {
+  padding: 3mm;
+}
+
+.news-content .paper-authors,
+.news-content .paper-abstract,
+.news-content .paper-citation {
+  margin: 4mm 0;
+}
+
+.news-content .authors-grid {
+  display: block;
+}
+
+.news-content .author-card {
+  margin-bottom: 2mm;
+  padding: 0;
+  border: 0;
+  break-inside: avoid;
+}
+
+.news-content .author-card h3 {
+  margin: 0 0 1mm;
+  font-size: 10pt;
+}
+
+.news-content .author-card p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.news-content pre,
+.news-content #citation-text {
+  overflow: visible;
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere;
+}
+
+.news-content #citation-text {
+  padding: 2mm;
+  font-size: 9pt;
+}
+
+.news-content .news-funding {
+  margin-top: 5mm;
+  padding-top: 3mm;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+.news-content .news-funding h2 {
+  margin: 0 0 2mm;
+  font-size: 11pt;
+}
+
+.news-print-source {
+  margin: 5mm 0 0;
+  padding-top: 2mm;
+  border-top: 1px solid #aaa;
+  font-size: 8pt;
+  overflow-wrap: anywhere;
+}

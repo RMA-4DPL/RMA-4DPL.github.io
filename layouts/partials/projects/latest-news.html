@@ -1,0 +1,19 @@
+{{- if and .IsPage (hasPrefix .File.Path "research/projects/") -}}
+  {{- with .Site.GetPage (printf "/tags/%s" (.LinkTitle | urlize)) -}}
+    {{- $term := . -}}
+    {{- $news := (where .RegularPages "Section" "news").ByDate.Reverse -}}
+    {{- with $news -}}
+<section class="hx-mt-12 hx-pt-6 hx-border-t hx-border-gray-200 dark:hx-border-gray-700" aria-labelledby="project-news-heading">
+  <h2 id="project-news-heading" class="hx-text-2xl hx-font-bold hx-mb-6">Latest news</h2>
+  <div class="hx-space-y-4">
+    {{- range first 3 . }}
+      {{ partial "news/card.html" . }}
+    {{- end }}
+  </div>
+    {{- if gt (len $news) 3 }}
+  <a href="{{ $term.RelPermalink }}" class="view-all-news hx-inline-flex hx-mt-6 hx-font-medium">View all {{ $term.LinkTitle }} news <span aria-hidden="true">→</span></a>
+    {{- end }}
+</section>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

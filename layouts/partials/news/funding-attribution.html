@@ -1,0 +1,7 @@
+{{- $page := . -}}
+{{- with .Params.funding_attribution -}}
+<section class="news-funding" aria-labelledby="news-funding-heading">
+  <h2 id="news-funding-heading">Funding acknowledgements</h2>
+  {{ $page.RenderString (dict "display" "block") . }}
+</section>
+{{- end -}}

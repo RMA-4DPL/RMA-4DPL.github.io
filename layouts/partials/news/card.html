@@ -1,0 +1,10 @@
+<article class="news-card-compact hx-rounded-lg hx-border hx-p-6 hx-shadow-md">
+  <time class="hx-text-sm hx-font-medium" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+  <h3 class="hx-text-xl hx-font-bold hx-mt-2 hx-mb-3">
+    <a href="{{ .RelPermalink }}">{{ .Params.news_title | default .Title }}</a>
+  </h3>
+  {{ with .Params.news_summary | default .Description | default .Summary }}
+  <p class="hx-mb-4 hx-leading-relaxed">{{ . | plainify }}</p>
+  {{ end }}
+  <a href="{{ .RelPermalink }}" class="read-more-link hx-inline-flex hx-items-center hx-font-medium">Read more<span class="hx-sr-only">: {{ .Params.news_title | default .Title }}</span><span aria-hidden="true">&nbsp;→</span></a>
+</article>

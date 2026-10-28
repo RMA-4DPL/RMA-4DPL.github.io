@@ -4,6 +4,7 @@ news_summary: "Our paper 'Image Reconstruction for Hyperspectral Pushbroom Camer
 title: "Image Reconstruction for Hyperspectral Pushbroom Cameras using visual-inertial SLAM"
 date: 2025-03-20
 summary: "In this study we propose a novel method in which we employ a visual-inertial SLAM system to reconstruct distorted hyperspectral pushbroom images."
+tags: [BeyVAR, HYPER-IP]
 draft: false
 image: "images/news/pushbroom-slam.png"
 paper_type: "Conference Paper"

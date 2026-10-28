@@ -4,6 +4,7 @@ news_summary: "The 4D Perception Lab participated in a Mass Casualty Exercise (M
 title: "4DPL Participates in MASCAL exercise"
 date: 2025-07-11
 summary: "The 4D Perception Lab participated in a Mass Casualty Exercise (MASCAL), providing support and gathering valuable data about the deployment of hyperspectral imaging and 3D perception in difficult MASCAL operational contexts."
+tags: [TaMaCare]
 draft: false
 ---
 

@@ -4,6 +4,7 @@ news_summary: "Our paper 'Depth-Visual-Inertial (DVI) Mapping for Robust Indoor 
 title: "Depth-Visual-Inertial (DVI) Mapping for Robust Indoor 3D Reconstruction"
 date: 2025-06-06
 summary: "We propose the Depth-Visual-Inertial (DVI) mapping system: a robust multi-sensor fusion framework for dense 3D mapping using time-of-flight cameras equipped with RGB and IMU sensors."
+tags: [MIXRS, BeyVAR]
 draft: false
 image: "images/news/dvi-mapping.jpg"
 paper_type: "Conference Paper"

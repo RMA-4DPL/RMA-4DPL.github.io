@@ -81,3 +81,84 @@ hugo mod tidy
 
 See [Update modules](https://gohugo.io/hugo-modules/use-modules/#update-modules) for more details.
 
+## Writing news articles
+
+Add articles to `content/news/` using the existing front matter fields: `title`,
+`news_title`, `date`, `summary`, `news_summary` and `draft`.
+
+News pages automatically load `assets/css/news.css`. The news template wraps
+article content in `.news-content`, which provides typography, light/dark colours
+and these optional components:
+
+| Class | Use |
+| --- | --- |
+| `news-eyebrow` | Small category label above the opening image or text |
+| `news-hero` | Opening `<figure>` with an image and `<figcaption>` |
+| `news-lead` | Prominent introductory paragraph |
+| `news-facts` | Responsive `<dl>` of facts, each in a `<div>` containing `<dt>` and `<dd>` |
+| `news-link-grid` | A `<ul>` of link cards, with `<strong>` titles and optional `<span>` subtitles |
+| `news-gallery` | Responsive image grid containing captioned `<figure>` elements |
+| `news-callout` | Highlighted section, such as acknowledgements or key takeaways |
+
+Use these classes directly in article HTML; no additional wrapper or stylesheet
+is needed. Images keep their natural proportions. Include descriptive alt text
+and intrinsic dimensions, and use lazy loading for images below the opening image.
+The DOVO 2026 article is a complete example of the components.
+
+Homepage and listing card styles remain in `assets/css/custom.css`, since those
+cards are also used outside news pages.
+
+### Linking news to projects with tags
+
+Use Hugo's built-in `tags` field in a news article's front matter. A tag matching
+a project's `linkTitle` (its acronym, ignoring case) connects the article to that
+project. Articles can belong to multiple projects:
+
+```yaml
+tags: [DECAT, TaMaCare, ARIES, REMEDIS, SpectrEx]
+```
+
+Project pages automatically show the three newest matching news articles below
+their main content. If there are more, a link opens the full tag archive. Projects
+with no matching news omit the section. Articles also show links back to their
+tagged projects. This works for active and completed projects without changes to
+the project pages, and the connection survives moving a project between them.
+
+Tags for topics are also supported; tags that do not match a project acronym
+remain ordinary Hugo tags. Use the project's existing `linkTitle` spelling to
+keep tag names consistent. Draft and future-dated articles follow Hugo's normal
+publication settings.
+
+### Funding acknowledgements
+
+Add an optional `funding_attribution` block to a news article's front matter:
+
+```yaml
+funding_attribution: |
+  Official funding statement for the research.
+
+  Additional funding statement, if applicable.
+```
+
+The shared news template displays this under **Funding acknowledgements** after
+the article body, on screen and in print. Blank lines separate paragraphs;
+Markdown links and formatting are supported. Omit the field to omit the section.
+Keep official funder wording and contract or grant numbers in the article itself.
+
+### Printing news articles
+
+Individual articles automatically load `assets/css/news-print.css` with
+`media="print"`. Use the browser's Print command to print or save as PDF. The
+shared layout uses A4 pages with 16 mm margins, dark text on white, compact images
+and galleries, and page-break rules that keep figures with their captions.
+
+The print version includes a compact lab identity line, the publication date,
+related projects and the article URL. Site navigation, the large footer and
+previous/next article links are hidden. Research-paper metadata and author lists
+are compacted, and interactive citation controls are hidden.
+
+No article-specific changes are required. Use `news-screen-only` for controls
+that should not print and `news-print-only` for print-only content. Browser print
+settings can override paper size and margins; browser-added headers and footers
+are controlled in the print dialog.
+
