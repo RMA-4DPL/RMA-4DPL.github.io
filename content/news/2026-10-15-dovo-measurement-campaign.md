@@ -71,5 +71,12 @@ draft: false
 <div class="news-callout">
   <h2>A shared effort</h2>
   <p>This campaign was made possible by the excellent support and collaboration of our partners, especially the teams at <strong>DOVO</strong>. Their expertise and commitment helped make the four days of measurements a success.</p>
+  <p>We also gratefully acknowledge the wider project teams and partner organisations supporting this research:</p>
+  <ul>
+    <li><strong>DECAT:</strong> <a href="https://www.tno.nl/nl/">TNO</a>, <a href="https://demcon.com/nl">DEMCON</a>, <a href="https://www.inegi.pt/en">INEGI</a>, <a href="https://www.flysight.it/">FLYSIGHT</a>, <a href="https://www.mbda-systems.com/country-it">MBDA</a>, <a href="https://www.ino.cnr.it/">CNR-INO</a> and CEPOLISPE.</li>
+    <li><strong>TaMaCare and ARIES:</strong> <a href="https://www.ugent.be/">Ghent University</a> (both projects), <a href="https://www.pozyx.io">Pozyx</a> (TaMaCare), and <a href="https://www.imec.be/">imec vzw</a> and <a href="https://www.flir.com">FLIR Belgium</a> (ARIES).</li>
+    <li><strong>REMEDIS:</strong> <a href="https://tech4tracing.org/">Tech 4 Tracing</a>, <a href="https://www.uniovi.es/">Universidad de Oviedo</a>, <a href="https://postup.com.pl/en">Postup Foundation</a>, <a href="https://www.halotrust.org/">HALO Trust</a>, <a href="https://www.soas.ac.uk/">SOAS University of London</a>, the <a href="https://mcgr.dsns.gov.ua/en">Interregional Center for Humanitarian Demining and Rapid Response of the State Emergency Service of Ukraine</a>, and <a href="https://nau.edu.ua/en/">National University «Kyiv Aviation Institute»</a>.</li>
+    <li><strong>SpectrEx:</strong> the Royal Military Academy’s <a href="https://researchportal.rma.ac.be/en/organisations/chemistry">Department of Chemistry (CHCH)</a> </li>
+  </ul>
   <p><strong>Thank you to everyone involved</strong> for your dedication, practical support and contribution to this next step in our detection research.</p>
 </div>
