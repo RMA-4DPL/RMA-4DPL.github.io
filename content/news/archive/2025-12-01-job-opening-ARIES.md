@@ -5,7 +5,7 @@ title: "New 'Researcher in Machine Learning for Hyperspectral Imaging' Position 
 date: 2025-12-01
 summary: "The 4D Perception Lab is expanding! We are currently seeking a **Machine Learning Researcher** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
 tags: [ARIES]
-draft: false
+draft: true
 ---
 
 <img src="/images/aries.png" alt="ARIES project visual" class="job-image" />

@@ -4,7 +4,7 @@ news_summary: "The 4D Perception Lab is expanding! We are currently seeking a **
 title: "New Machine Learning Researcher Position Available"
 date: 2025-04-01
 summary: "The 4D Perception Lab is expanding! We are currently seeking a **Machine Learning Researcher** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
-draft: false
+draft: true
 ---
 
 ---

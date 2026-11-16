@@ -5,7 +5,7 @@ title: "New 'Researcher in Computer Vision and/or Robotics' Position Available"
 date: 2025-12-01
 summary: "The 4D Perception Lab is expanding! We are currently seeking a **Computer Vision/Robotics Researcher** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
 tags: [RAVN]
-draft: false
+draft: true
 ---
 
 <img src="/images/ravn.png" alt="RAVN project visual" class="job-image" />

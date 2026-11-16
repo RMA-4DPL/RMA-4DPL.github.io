@@ -4,7 +4,7 @@ news_summary: "The 4D Perception Lab is expanding! We are currently seeking a **
 title: "New 'Project Manager / Business Developer' Position Available"
 date: 2025-12-01
 summary: "The 4D Perception Lab is expanding! We are currently seeking a **Project Manager / Business Developer** to join our team and contribute to cutting-edge research in spatial-spectral perception systems."
-draft: false
+draft: true
 ---
 
 <img src="/images/business_developer.jpg" alt="Business developer collaborating in modern office" class="job-image" />
