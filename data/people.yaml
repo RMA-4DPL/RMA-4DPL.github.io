@@ -18,7 +18,7 @@
 - id: "charles_hamesse"
   name: "Charles Hamesse"
   title: "Dr."
-  4DPL: true
+  4DPL: false
   role: "Postdoctoral Researcher, Project Manager"
   image: "/images/people/ch-resized.jpg"
   affiliation: "Royal Military Academy"
